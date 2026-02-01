@@ -94,6 +94,9 @@
     networkmanagerapplet
     gh
     libreoffice
+    nemo-fileroller
+    nemo-emblems
+    nemo-preview
   ];
 
   programs.niri.enable = true;
