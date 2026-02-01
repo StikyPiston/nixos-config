@@ -122,9 +122,9 @@
     script = ''
       		set -e
 
-      		flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+      		${pkgs.flatpak}/bin/flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-      		flatpak install -y --system flathub \
+      		${pkgs.flatpak}/bin/flatpak install -y --system flathub \
       			org.prismlauncher.PrismLauncher
       			md.obsidian.Obsidian
       			org.gnome.World.Secrets
