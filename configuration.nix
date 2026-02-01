@@ -85,7 +85,7 @@
     colloid-gtk-theme
     papirus-icon-theme
     catppuccin-gtk
-    catppuccin-cursors
+    catppuccin-cursors.mochaMauve
     catppuccin-papirus-folders
     lua-language-server
     nixfmt
