@@ -177,6 +177,13 @@
       	'';
   };
 
+  xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal-gnome
+    ];
+  };
+
   networking.firewall.enable = false;
 
   catppuccin = {
