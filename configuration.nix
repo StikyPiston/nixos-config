@@ -124,6 +124,7 @@
     rhythmbox
     craftos-pc
     lutgen
+    file-roller
   ];
 
   programs.niri.enable = true;
