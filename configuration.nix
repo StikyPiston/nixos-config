@@ -125,23 +125,23 @@
       		${pkgs.flatpak}/bin/flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
       		${pkgs.flatpak}/bin/flatpak install -y --system flathub \
-      			org.prismlauncher.PrismLauncher
-      			md.obsidian.Obsidian
-      			org.gnome.World.Secrets
-      			app.zen_browser.zen
-      			org.kde.kdenlive
-      			org.nickvision.tubeconverter
-      			de.schmidhuberj.tubefeeder
-      			de.haeckerfelix.Fragments
-      			org.gnome.World.PikaBackup
-      			org.freedesktop.Platform.ffmpeg-full//24.08
-      			org.freedesktop.Platform.VulkanLayer.MangoHud//25.08
-      			com.github.tchx84.Flatseal
-      			com.belmoussaoui.Authenticator
-      			org.localsend.localsend_app
-      			org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
-      			org.vinegarhq.Vinegar
-      			org.vinegarhq.Sober
+      			org.prismlauncher.PrismLauncher \
+      			md.obsidian.Obsidian \
+      			org.gnome.World.Secrets \
+      			app.zen_browser.zen \
+      			org.kde.kdenlive \
+      			org.nickvision.tubeconverter \
+      			de.schmidhuberj.tubefeeder \
+      			de.haeckerfelix.Fragments \
+      			org.gnome.World.PikaBackup \
+      			org.freedesktop.Platform.ffmpeg-full//24.08 \
+      			org.freedesktop.Platform.VulkanLayer.MangoHud//25.08 \
+      			com.github.tchx84.Flatseal \
+      			com.belmoussaoui.Authenticator \
+      			org.localsend.localsend_app \
+      			org.freedesktop.Platform.VulkanLayer.MangoHud//24.08 \
+      			org.vinegarhq.Vinegar \
+      			org.vinegarhq.Sober \
       			org.winehq.Wine//stable-25.08
       	'';
   };
