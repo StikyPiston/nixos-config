@@ -125,6 +125,7 @@
     lutgen
     file-roller
 	inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+	prismlauncher
   ];
 
   programs.niri.enable = true;
