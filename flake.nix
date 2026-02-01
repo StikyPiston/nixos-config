@@ -5,7 +5,6 @@
     catppuccin.url = "github:catppuccin/nix";
     neovim-nightly-overlay = {
       url = "github:nix-community/neovim-nightly-overlay";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
     vicinae = {
       url = "github:vicinaehq/vicinae";

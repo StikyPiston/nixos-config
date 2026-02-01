@@ -15,7 +15,7 @@
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  networking.hostName = "frosties"; # Define your hostname.
+  networking.hostName = "frosties";
   networking.networkmanager.enable = true;
 
   time.timeZone = "Africa/Johannesburg";
@@ -41,7 +41,7 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    neovim
+    inputs.neovim-nightly-overlay.packages.${system}.default
     wget
     git
     xwayland-satellite
