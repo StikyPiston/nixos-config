@@ -73,7 +73,7 @@
     tree-sitter
     uxplay
     zathura
-    xdg-desktop-portal-gnome
+    xdg-desktop-portal-hyprland
     wlogout
     mangohud
     lf
@@ -180,7 +180,7 @@
   xdg.portal = {
     enable = true;
     extraPortals = [
-      pkgs.xdg-desktop-portal-wlr
+      pkgs.xdg-desktop-portal-gtk
     ];
   };
 
