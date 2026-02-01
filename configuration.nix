@@ -77,8 +77,8 @@
     mangohud
     lf
     vicinae
-    inputs.dotkeeper.packages.${pkgs.system}.dotkeeper
-    inputs.recall.packages.${pkgs.system}.recall
+    inputs.dotkeeper.packages.${pkgs.stdenv.hostPlatform.system}.dotkeeper
+    inputs.recall.packages.${pkgs.stdenv.hostPlatform.system}.recall
     zoxide
     lazygit
     colloid-gtk-theme
@@ -124,6 +124,7 @@
     craftos-pc
     lutgen
     file-roller
+	inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 
   programs.niri.enable = true;
