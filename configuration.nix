@@ -73,7 +73,6 @@
     tree-sitter
     uxplay
     zathura
-    xdg-desktop-portal-hyprland
     wlogout
     mangohud
     lf
