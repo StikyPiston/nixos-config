@@ -112,7 +112,7 @@
     description = "Install flatpaks";
     wantedBy = [ "multi-user.target" ];
     after = [ "network-online.target" ];
-    wants = [ "network-online" ];
+    wants = [ "network-online.target" ];
 
     serviceConfig = {
       Type = "oneshot";
