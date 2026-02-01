@@ -111,7 +111,7 @@
 	remotes = [{
 		name = "flathub"; location = "https://dl.flathub.org/repo/flathub.flatpakrepo";
 	}];
-	packages = {
+	packages = [
 		"org.prismLauncher.PrismLauncher"
 		"md.obsidian.Obsidian"
 		"org.gnome.World.Secrets"
@@ -129,7 +129,7 @@
 		"org.vinegarhq.Sober"
 		"org.freedesktop.Platform.VulkanLayer.MangoHud//24.08"
 		"org.winehq.Wine"
-	};
+	];
   };
 
   networking.firewall.enable = false;
