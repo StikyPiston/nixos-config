@@ -97,6 +97,33 @@
     nemo-fileroller
     nemo-emblems
     nemo-preview
+    soft-serve
+    gum
+    viu
+    chafa
+    feh
+    yt-dlp
+    vhs
+    glow
+    freeze
+    aerc
+    yazi
+    grex
+    jrnl
+    croc
+    sysbench
+    tlrc
+    ripgrep
+    helix
+    git-lfs
+    ncdu
+    amfora
+    fd
+    superfile
+    television
+    rhythmbox
+    craftos-pc
+    lutgen
   ];
 
   programs.niri.enable = true;
