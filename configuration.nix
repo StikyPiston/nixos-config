@@ -92,7 +92,7 @@
     nixd
     delta
     networkmanagerapplet
-	gh
+    gh
   ];
 
   systemd.services.flatpak-repo = {
