@@ -91,6 +91,7 @@
     nixfmt
     nixd
     delta
+    networkmanagerapplet
   ];
 
   systemd.services.flatpak-repo = {
