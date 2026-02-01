@@ -3,6 +3,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     catppuccin.url = "github:catppuccin/nix";
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=0.7.0";
     neovim-nightly-overlay = {
       url = "github:nix-community/neovim-nightly-overlay";
     };
@@ -37,6 +38,7 @@
           ];
         }
         inputs.catppuccin.nixosModules.catppuccin
+		inputs.nix-flatpak.nixosModules.nix-flatpak
         ./configuration.nix
       ];
     };

@@ -93,13 +93,8 @@
     delta
     networkmanagerapplet
     gh
+	libreoffice
   ];
-
-  systemd.services.flatpak-repo = {
-    wantedBy = [ "multi-user.target" ];
-    path = [ pkgs.flatpak ];
-    script = "flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo";
-  };
 
   programs.niri.enable = true;
   programs.obs-studio.enable = true;
@@ -113,6 +108,28 @@
   services.gvfs.enable = true;
   services.flatpak = {
     enable = true;
+	remotes = [{
+		name = "flathub"; location = "https://dl.flathub.org/repo/flathub.flatpakrepo";
+	}];
+	packages = {
+		"org.prismLauncher.PrismLauncher"
+		"md.obsidian.Obsidian"
+		"org.gnome.World.Secrets"
+		"app.zen_browser.zen"
+		"org.kde.kdenlive"
+		"io.missioncenter.MissionCenter"
+		"org.nickvision.tubeconverter"
+		"de.haeckerfelix.Fragments"
+		"org.videolan.VLC"
+		"org.freedesktop.Platform.ffmpeg-full"
+		"com.github.tchx84.Flatseal"
+		"com.belmoussaoui.Authenticator"
+		"org.localsend.localsend_app"
+		"org.vinegarhq.Vinegar"
+		"org.vinegarhq.Sober"
+		"org.freedesktop.Platform.VulkanLayer.MangoHud//24.08"
+		"org.winehq.Wine"
+	};
   };
 
   networking.firewall.enable = false;
