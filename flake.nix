@@ -2,12 +2,11 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-	catppuccin.url = "github:catppuccin/nix";
+    catppuccin.url = "github:catppuccin/nix";
     neovim-nightly-overlay = {
       url = "github:nix-community/neovim-nightly-overlay";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
     vicinae = {
       url = "github:vicinaehq/vicinae";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -32,12 +31,17 @@
       };
 
       modules = [
-        { nix.settings.experimental-features = ["nix-command" "flakes"]; }
-		inputs.catppuccin.nixosModules.catppuccin
+        {
+          nix.settings.experimental-features = [
+            "nix-command"
+            "flakes"
+          ];
+        }
+        inputs.catppuccin.nixosModules.catppuccin
         ./configuration.nix
       ];
     };
 
   };
-  
+
 }
