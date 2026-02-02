@@ -14,11 +14,15 @@
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   services.flatpak.enable = true;
-  services.dbus.enable = true;
+  services.dbus = {
+    enable = true;
+    packages = [ pkgs.dconf ];
+  };
 
   xdg.portal = {
     enable = true;
     extraPortals = [
+      pkgs.xdg-desktop-portal-gnome
       pkgs.xdg-desktop-portal-gtk
     ];
     config.common.default = "gtk";
