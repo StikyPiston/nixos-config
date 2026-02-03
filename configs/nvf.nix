@@ -15,6 +15,52 @@
     theme.style = "mocha";
     theme.transparent = true;
 
+    # Options
+
+    lineNumberMode = "number";
+    options = {
+      signcolumn = "yes";
+      wrap = false;
+      tabstop = 4;
+    };
+
+    ui.borders.globalStyle = "rounded";
+    preventJunkFiles = true;
+    clipboard = {
+      enable = true;
+      registers = "unnamedplus";
+    };
+
+    # Lualine
+    statusline.lualine = {
+      enable = true;
+      activeSection = {
+        a = [ ''{ "mode" } '' ];
+        b = [ ''{ "filename" } '' ];
+        c = [ ];
+        x = [
+          ''{ "filetype" } ''
+          ''{ "location" } ''
+          ''{ "diff" } ''
+        ];
+        y = [
+          ''{ "lsp_status" } ''
+          ''{ "diagnostics" } ''
+        ];
+        z = [ ];
+      };
+
+      sectionSeparator = {
+        left = "";
+        right = "";
+      };
+
+      componentSeparator = {
+        left = "";
+        right = "";
+      };
+    };
+
     # LSP stuff
 
     lsp.enable = true;
