@@ -29,7 +29,7 @@
 
 	packages."x86_64-linux".default = 
 		(inputs.nvf.lib.neovimConfiguration {
-			pkgs = inputs.nixpkgs;
+			pkgs = inputs.nixpkgs.legacyPackages."x86_64-linux";
 			modules = [ ./configs/nvf.nix ];
 		}).neovim;
 
