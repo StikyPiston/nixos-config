@@ -3,7 +3,6 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     catppuccin.url = "github:catppuccin/nix";
-    nvf.url = "github:notashelf/nvf";
     neovim-nightly-overlay = {
       url = "github:nix-community/neovim-nightly-overlay";
     };
@@ -26,12 +25,6 @@
   };
 
   outputs = inputs: {
-
-	packages."x86_64-linux".default = 
-		(inputs.nvf.lib.neovimConfiguration {
-			pkgs = inputs.nixpkgs.legacyPackages."x86_64-linux";
-			modules = [ ./configs/nvf.nix ];
-		}).neovim;
 
     nixosConfigurations.frosties = inputs.nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
