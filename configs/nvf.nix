@@ -36,6 +36,7 @@
     globals.mapleader = " ";
 
     # Lualine
+
     statusline.lualine = {
       enable = true;
       activeSection = {
@@ -73,10 +74,37 @@
 
     languages = {
       lua.enable = true;
+      lua.lsp.lazydev.enable = true;
       ruby.enable = true;
       go.enable = true;
       markdown.enable = true;
       typst.enable = true;
+    };
+
+    # Plugins
+
+    utility.snacks-nvim = {
+      enable = true;
+      setupOpts = {
+        image.enabled = true;
+        indent.enabled = true;
+        lazygit.enabled = true;
+        quickfile.enabled = true;
+      };
+    };
+
+    mini = {
+      icons.enable = true;
+      starter.enable = true;
+      surround.enable = true;
+    };
+
+    ui.noice = {
+      enable = true;
+      setupOpts.format.cmdline = {
+        icon = "";
+      };
+      setupOpts.presets.command_palette = false;
     };
 
     # Keybindings
