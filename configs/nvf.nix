@@ -22,6 +22,9 @@
       signcolumn = "yes";
       wrap = false;
       tabstop = 4;
+      cursorline = true;
+      shiftwidth = 4;
+      scrolloff = 999;
     };
 
     ui.borders.globalStyle = "rounded";
@@ -30,6 +33,7 @@
       enable = true;
       registers = "unnamedplus";
     };
+    globals.mapleader = " ";
 
     # Lualine
     statusline.lualine = {
