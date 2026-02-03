@@ -27,6 +27,12 @@
 
   outputs = inputs: {
 
+	packages."x86_64-linux".default = 
+		(inputs.nvf.lib.neovimConfiguration {
+			pkgs = inputs.nixpkgs;
+			modules = [ ./configs/nvf.nix ];
+		}).neovim;
+
     nixosConfigurations.frosties = inputs.nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
 
