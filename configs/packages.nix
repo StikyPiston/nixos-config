@@ -95,13 +95,13 @@
     file-roller
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     prismlauncher
-	ffmpeg
-	appimage-run
+    ffmpeg
   ];
 
   programs.niri.enable = true;
   programs.obs-studio.enable = true;
   programs.steam.enable = true;
   programs.gamemode.enable = true;
+  programs.appimage.enable = true;
 
 }
