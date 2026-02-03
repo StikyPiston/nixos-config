@@ -96,6 +96,7 @@
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     prismlauncher
     ffmpeg
+    osu-lazer-bin
   ];
 
   programs.niri.enable = true;
