@@ -201,6 +201,18 @@
         key = ";";
         action = "i";
       }
+
+      # Map leader w and leader q to write and quit
+      {
+        mode = "n";
+        key = "<leader>w";
+        action = ":w<CR>";
+      }
+      {
+        mode = "n";
+        key = "<leader>q";
+        action = ":q<CR>";
+      }
     ];
 
   };
