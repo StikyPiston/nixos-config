@@ -95,6 +95,7 @@
     file-roller
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     prismlauncher
+	ffmpeg
   ];
 
   programs.niri.enable = true;
