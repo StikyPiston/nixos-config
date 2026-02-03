@@ -19,14 +19,14 @@
 
     lsp.enable = true;
     lsp.trouble.enable = true;
-	autocomplete.blink-cmp.enable = true;
+    autocomplete.blink-cmp.enable = true;
 
     languages = {
-		lua.enable = true;
-		ruby.enable = true;
-		go.enable = true;
-		markdown.enable = true;
-		typst.enable = true;
+      lua.enable = true;
+      ruby.enable = true;
+      go.enable = true;
+      markdown.enable = true;
+      typst.enable = true;
     };
 
     # Keybindings
