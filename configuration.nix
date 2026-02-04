@@ -15,7 +15,6 @@
     ./configs/networking.nix
     ./configs/packages.nix
     ./configs/services.nix
-    ./configs/stylix.nix
     ./configs/users.nix
     ./hardware-configuration.nix
   ];
