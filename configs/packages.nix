@@ -97,7 +97,6 @@
     prismlauncher
     ffmpeg
     osu-lazer-bin
-    hyprcursor
   ];
 
   programs.niri.enable = true;
