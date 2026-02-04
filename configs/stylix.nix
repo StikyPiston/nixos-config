@@ -12,8 +12,8 @@
   stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
 
   stylix.cursor = {
-    package = pkgs.catppuccin-cursors;
-    name = "Catppuccin Mocha Mauve";
+    package = pkgs.bibata-cursors;
+    name = "Bibata-Modern-Dark";
   };
 
 }
