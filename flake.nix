@@ -3,6 +3,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     catppuccin.url = "github:catppuccin/nix";
+    stylix.url = "github:nix-community/stylix";
     neovim-nightly-overlay = {
       url = "github:nix-community/neovim-nightly-overlay";
     };
@@ -41,6 +42,7 @@
           ];
         }
         inputs.catppuccin.nixosModules.catppuccin
+        inputs.stylix.nixosModules.stylix
         ./configuration.nix
       ];
     };

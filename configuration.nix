@@ -7,7 +7,6 @@
 
 {
   imports = [
-    ./hardware-configuration.nix
     ./configs/boot.nix
     ./configs/catppuccin.nix
     ./configs/environment.nix
@@ -16,7 +15,9 @@
     ./configs/networking.nix
     ./configs/packages.nix
     ./configs/services.nix
+    ./configs/stylix.nix
     ./configs/users.nix
+    ./hardware-configuration.nix
   ];
 
   # DO NOT EDIT
