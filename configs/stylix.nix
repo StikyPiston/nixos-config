@@ -14,6 +14,7 @@
   stylix.cursor = {
     package = pkgs.bibata-cursors;
     name = "Bibata-Modern-Dark";
+    size = 24;
   };
 
 }
