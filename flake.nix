@@ -41,7 +41,6 @@
           ];
         }
         inputs.catppuccin.nixosModules.catppuccin
-        inputs.nvf.nixosModules.default
         ./configuration.nix
       ];
     };
