@@ -9,7 +9,7 @@
 
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";
-    XCURSOR_THEME = "Catppuccin Mocha Dark";
+    XCURSOR_THEME = "catppuccin-mocha-dark";
     XCURSOR_SIZE = "24";
   };
 
