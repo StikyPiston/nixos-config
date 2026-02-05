@@ -105,5 +105,9 @@
   programs.steam.enable = true;
   programs.gamemode.enable = true;
   programs.appimage.enable = true;
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
 
 }
