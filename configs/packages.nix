@@ -97,6 +97,7 @@
     prismlauncher
     ffmpeg
     osu-lazer-bin
+    libXcursor
   ];
 
   programs.niri.enable = true;
