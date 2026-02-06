@@ -99,6 +99,7 @@
     osu-lazer-bin
     libXcursor
     fzf
+    inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
   ];
 
   programs.niri.enable = true;
