@@ -98,6 +98,7 @@
     ffmpeg
     osu-lazer-bin
     libXcursor
+    fzf
   ];
 
   programs.niri.enable = true;
