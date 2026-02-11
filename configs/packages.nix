@@ -100,6 +100,7 @@
     libXcursor
     fzf
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
+    pipes
   ];
 
   programs.niri.enable = true;
