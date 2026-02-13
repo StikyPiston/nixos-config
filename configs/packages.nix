@@ -101,6 +101,7 @@
     fzf
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
     pipes
+    inputs.uwu-colors.packages.${pkgx.stdenv.hostPlatform.system}.default
   ];
 
   programs.niri.enable = true;
