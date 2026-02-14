@@ -1,0 +1,54 @@
+{
+  pkgs,
+  ...
+}:
+
+{
+  environment.systemPackages = with pkgs; [
+    wget
+    git
+    bat
+    tmux
+    nwg-displays
+    nwg-look
+    eza
+    swaynotificationcenter
+    man
+    figlet
+    tree
+    uxplay
+    lf
+    zoxide
+    lazygit
+    delta
+    networkmanagerapplet
+    gh
+    gum
+    viu
+    chafa
+    feh
+    yt-dlp
+    vhs
+    glow
+    freeze
+    aerc
+    yazi
+    soft-serve
+    grex
+    jrnl
+    croc
+    sysbench
+    tlrc
+    ripgrep
+    ncdu
+    fd
+    git-lfs
+    superfile
+    television
+    lutgen
+    ffmpeg
+    libXcursor
+    fzf
+    localsend
+  ];
+}

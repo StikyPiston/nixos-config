@@ -15,6 +15,7 @@
     ./configs/networking.nix
     ./configs/packages.nix
     ./configs/packages/external.nix
+    ./configs/packages/utilities.nix
     ./configs/services.nix
     ./configs/users.nix
     ./hardware-configuration.nix

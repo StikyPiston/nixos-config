@@ -10,8 +10,6 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    wget
-    git
     xwayland-satellite
     waybar
     ghostty
@@ -19,34 +17,21 @@
     nemo
     fastfetch
     hyprpolkitagent
-    nwg-look
     sassc
-    bat
-    tmux
     cava
     cmatrix
-    nwg-displays
-    eza
-    swaynotificationcenter
     teeworlds
-    man
-    figlet
     hyprlock
     loupe
     starship
     rmpc
     btop
-    tree
     hyprpicker
     tree-sitter
-    uxplay
     zathura
     wlogout
     mangohud
-    lf
     vicinae
-    zoxide
-    lazygit
     colloid-gtk-theme
     papirus-icon-theme
     catppuccin-gtk
@@ -55,51 +40,22 @@
     lua-language-server
     nixfmt
     nixd
-    delta
-    networkmanagerapplet
-    gh
     libreoffice
     nemo-fileroller
     nemo-emblems
     nemo-preview
     soft-serve
-    gum
-    viu
-    chafa
-    feh
-    yt-dlp
-    vhs
-    glow
-    freeze
-    aerc
-    yazi
-    grex
-    jrnl
-    croc
-    sysbench
-    tlrc
-    ripgrep
     helix
-    git-lfs
-    ncdu
     amfora
-    fd
-    superfile
-    television
     rhythmbox
     craftos-pc
-    lutgen
     file-roller
     prismlauncher
-    ffmpeg
     osu-lazer-bin
-    libXcursor
-    fzf
     pipes
     marksman
     pandoc
     typst
-    localsend
   ];
 
   programs.niri.enable = true;
