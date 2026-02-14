@@ -104,6 +104,7 @@
     inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
     marksman
     pandoc
+    typst
   ];
 
   programs.niri.enable = true;
