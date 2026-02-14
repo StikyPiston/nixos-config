@@ -50,5 +50,11 @@
     libXcursor
     fzf
     localsend
+    nemo
+    nemo-fileroller
+    nemo-emblems
+    nemo-preview
+    file-roller
+    helix
   ];
 }

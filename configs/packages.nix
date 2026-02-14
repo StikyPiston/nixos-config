@@ -10,18 +10,13 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    nemo
     teeworlds
     loupe
     mangohud
-    nemo-fileroller
-    nemo-emblems
-    nemo-preview
     soft-serve
     amfora
     rhythmbox
     craftos-pc
-    file-roller
     prismlauncher
     osu-lazer-bin
     pipes
