@@ -14,6 +14,7 @@
       "networkmanager"
       "wheel"
       "lp"
+      "lpadmin"
       "scanner"
     ];
     shell = pkgs.nushell;
