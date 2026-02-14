@@ -1,0 +1,29 @@
+{
+  pkgs,
+  ...
+}:
+
+{
+  environment.systemPackages = with pkgs; [
+    xwayland-satellite
+    waybar
+    ghostty
+    swww
+    fastfetch
+    hyprpolkitagent
+    cava
+    cmatrix
+    hyprlock
+    starship
+    rmpc
+    btop
+    hyprpicker
+    wlogout
+    vicinae
+    colloid-gtk-theme
+    papirus-icon-theme
+    catppuccin-gtk
+    catppuccin-cursors.mochaMauve
+    catppuccin-catppuccin-papirus-folders
+  ];
+}

@@ -10,33 +10,13 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    xwayland-satellite
-    waybar
-    ghostty
-    swww
     nemo
-    fastfetch
-    hyprpolkitagent
     sassc
-    cava
-    cmatrix
     teeworlds
-    hyprlock
     loupe
-    starship
-    rmpc
-    btop
-    hyprpicker
     tree-sitter
     zathura
-    wlogout
     mangohud
-    vicinae
-    colloid-gtk-theme
-    papirus-icon-theme
-    catppuccin-gtk
-    catppuccin-cursors.mochaMauve
-    catppuccin-papirus-folders
     lua-language-server
     nixfmt
     nixd
