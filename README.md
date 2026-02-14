@@ -6,3 +6,4 @@ My personal **NixOS** config!
 
 - [ ] Split up packages into categories (as suggested by Vimjoyer himself)
 - [ ] Remove unused imports in various nix files
+- [ ] Install `kdenlive`
