@@ -20,6 +20,7 @@
     ./configs/packages/languages.nix
     ./configs/packages/productivity.nix
     ./configs/packages/multimedia.nix
+    ./configs/packages/gaming.nix
     ./configs/services.nix
     ./configs/users.nix
     ./hardware-configuration.nix
