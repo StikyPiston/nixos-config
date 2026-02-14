@@ -103,6 +103,7 @@
     pipes
     inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
     marksman
+    pandoc
   ];
 
   programs.niri.enable = true;
