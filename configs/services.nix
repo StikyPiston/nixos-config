@@ -8,7 +8,13 @@
 {
 
   services.openssh.enable = true;
-  services.printing.enable = true;
+  services.printing = {
+    enable = true;
+    drivers = [
+      pkgs.gutenprint
+      pkgs.gutenprintBin
+    ];
+  };
   services.avahi.enable = true;
   services.displayManager.ly.enable = true;
   services.udisks2.enable = true;
