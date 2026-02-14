@@ -18,6 +18,7 @@
     ./configs/packages/utilities.nix
     ./configs/packages/wm.nix
     ./configs/packages/languages.nix
+    ./configs/packages/productivity.nix
     ./configs/services.nix
     ./configs/users.nix
     ./hardware-configuration.nix

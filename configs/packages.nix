@@ -13,14 +13,11 @@
     nemo
     teeworlds
     loupe
-    zathura
     mangohud
-    libreoffice
     nemo-fileroller
     nemo-emblems
     nemo-preview
     soft-serve
-    helix
     amfora
     rhythmbox
     craftos-pc
