@@ -24,7 +24,7 @@
     papirus-icon-theme
     catppuccin-gtk
     catppuccin-cursors.mochaMauve
-    catppuccin-catppuccin-papirus-folders
+    catppuccin-papirus-folders
     pipes
   ];
 
