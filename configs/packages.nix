@@ -10,7 +10,6 @@
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
-    inputs.neovim-nightly-overlay.packages.${system}.default
     wget
     git
     xwayland-satellite
@@ -46,8 +45,6 @@
     mangohud
     lf
     vicinae
-    inputs.dotkeeper.packages.${pkgs.stdenv.hostPlatform.system}.dotkeeper
-    inputs.recall.packages.${pkgs.stdenv.hostPlatform.system}.recall
     zoxide
     lazygit
     colloid-gtk-theme
@@ -93,15 +90,12 @@
     craftos-pc
     lutgen
     file-roller
-    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     prismlauncher
     ffmpeg
     osu-lazer-bin
     libXcursor
     fzf
-    inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
     pipes
-    inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
     marksman
     pandoc
     typst

@@ -14,6 +14,7 @@
     ./configs/locale.nix
     ./configs/networking.nix
     ./configs/packages.nix
+    ./configs/packages/external.nix
     ./configs/services.nix
     ./configs/users.nix
     ./hardware-configuration.nix
