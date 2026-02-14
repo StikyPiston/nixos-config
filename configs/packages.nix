@@ -105,6 +105,7 @@
     marksman
     pandoc
     typst
+    localsend
   ];
 
   programs.niri.enable = true;
