@@ -11,11 +11,9 @@
 
   environment.systemPackages = with pkgs; [
     teeworlds
-    loupe
     mangohud
     soft-serve
     amfora
-    rhythmbox
     craftos-pc
     prismlauncher
     osu-lazer-bin
