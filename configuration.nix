@@ -6,6 +6,8 @@
 }:
 
 {
+  nixpkgs.config.allowUnfree = true;
+
   imports = [
     ./configs/boot.nix
     ./configs/catppuccin.nix
@@ -13,14 +15,14 @@
     ./configs/hardware.nix
     ./configs/locale.nix
     ./configs/networking.nix
-    ./configs/packages.nix
+    ./configs/packages/development.nix
     ./configs/packages/external.nix
+    ./configs/packages/gaming.nix
+    ./configs/packages/languages.nix
+    ./configs/packages/multimedia.nix
+    ./configs/packages/productivity.nix
     ./configs/packages/utilities.nix
     ./configs/packages/wm.nix
-    ./configs/packages/languages.nix
-    ./configs/packages/productivity.nix
-    ./configs/packages/multimedia.nix
-    ./configs/packages/gaming.nix
     ./configs/services.nix
     ./configs/users.nix
     ./hardware-configuration.nix

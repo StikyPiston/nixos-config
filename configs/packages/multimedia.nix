@@ -3,11 +3,13 @@
   ...
 }:
 
-  {
+{
 
-    environment.systemPackages = with pkgs; [
-      loupe
-      rhythmbox
-    ];
+  environment.systemPackages = with pkgs; [
+    loupe
+    rhythmbox
+  ];
 
-  }
+  programs.obs-studio.enable = true;
+
+}

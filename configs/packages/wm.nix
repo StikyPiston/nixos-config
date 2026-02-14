@@ -25,5 +25,9 @@
     catppuccin-gtk
     catppuccin-cursors.mochaMauve
     catppuccin-catppuccin-papirus-folders
+    pipes
   ];
+
+  programs.niri.enable = true;
+
 }

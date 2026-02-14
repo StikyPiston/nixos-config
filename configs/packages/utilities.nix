@@ -55,6 +55,9 @@
     nemo-emblems
     nemo-preview
     file-roller
-    helix
+    amfora
   ];
+
+  programs.appimage.enable = true;
+
 }
