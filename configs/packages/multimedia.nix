@@ -8,7 +8,7 @@
   environment.systemPackages = with pkgs; [
     loupe
     rhythmbox
-    kdenlive
+    kdePackages.kdenlive
   ];
 
   programs.obs-studio.enable = true;
