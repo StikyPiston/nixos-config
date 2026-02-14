@@ -11,15 +11,10 @@
 
   environment.systemPackages = with pkgs; [
     nemo
-    sassc
     teeworlds
     loupe
-    tree-sitter
     zathura
     mangohud
-    lua-language-server
-    nixfmt
-    nixd
     libreoffice
     nemo-fileroller
     nemo-emblems
@@ -33,9 +28,6 @@
     prismlauncher
     osu-lazer-bin
     pipes
-    marksman
-    pandoc
-    typst
   ];
 
   programs.niri.enable = true;
