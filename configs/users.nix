@@ -13,6 +13,8 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "lp"
+      "scanner"
     ];
     shell = pkgs.nushell;
     packages = with pkgs; [ ];
