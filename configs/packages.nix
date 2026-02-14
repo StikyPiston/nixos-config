@@ -102,6 +102,7 @@
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
     pipes
     inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
+    marksman
   ];
 
   programs.niri.enable = true;
