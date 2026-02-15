@@ -25,6 +25,10 @@
       url = "github:stikypiston/hocusfocus";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    fastcards = {
+      url = "github:stikypiston/fastcards";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
