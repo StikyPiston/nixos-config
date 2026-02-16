@@ -14,6 +14,7 @@
     ./configs/networking.nix
     ./configs/packages/development.nix
     ./configs/packages/external.nix
+    ./configs/packages/fonts.nix
     ./configs/packages/gaming.nix
     ./configs/packages/languages.nix
     ./configs/packages/multimedia.nix
