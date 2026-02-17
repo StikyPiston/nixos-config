@@ -30,7 +30,7 @@
     yt-dlp
     vhs
     glow
-    freeze
+    charm-freeze
     aerc
     yazi
     soft-serve
