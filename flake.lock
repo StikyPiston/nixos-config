@@ -306,6 +306,7 @@
         "recall": "recall",
         "uwu-colors": "uwu-colors",
         "vicinae": "vicinae",
+        "ytsurf": "ytsurf",
         "zen-browser": "zen-browser"
       }
     },
@@ -454,6 +455,26 @@
       "original": {
         "owner": "vicinaehq",
         "repo": "vicinae",
+        "type": "github"
+      }
+    },
+    "ytsurf": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1771440402,
+        "narHash": "sha256-ei58ASNKMJi2tU+P8LVNf2RpCsGv6n2Pmqh4XOUUz74=",
+        "owner": "stan-breaks",
+        "repo": "ytsurf",
+        "rev": "b717624ac0f7675d2ccf5b4e139a5da1c0523bb9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stan-breaks",
+        "repo": "ytsurf",
         "type": "github"
       }
     },

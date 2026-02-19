@@ -29,6 +29,10 @@
       url = "github:stikypiston/fastcards";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    ytsurf = {
+      url = "github:stan-breaks/ytsurf";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {

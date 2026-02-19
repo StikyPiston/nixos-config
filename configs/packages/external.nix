@@ -5,6 +5,9 @@
 }:
 
 {
+
+  nixpkgs.overlays =  [ inputs.ytsurf.overlays.default ];
+
   environment.systemPackages = [
     inputs.neovim-nightly-overlay.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.dotkeeper.packages.${pkgs.stdenv.hostPlatform.system}.dotkeeper
@@ -13,5 +16,6 @@
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
     inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.fastcards.packages.${pkgs.stdenv.hostPlatform.system}.fastcards
+    pkgs.ytsurf
   ];
 }
