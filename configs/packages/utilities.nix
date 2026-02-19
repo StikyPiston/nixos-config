@@ -15,18 +15,14 @@
     swaynotificationcenter
     man
     figlet
-    tree
     uxplay
-    lf
     zoxide
     lazygit
     delta
     networkmanagerapplet
     gh
     gum
-    viu
     chafa
-    feh
     yt-dlp
     vhs
     glow
@@ -37,7 +33,6 @@
     grex
     jrnl
     croc
-    sysbench
     tlrc
     ripgrep
     ncdu
