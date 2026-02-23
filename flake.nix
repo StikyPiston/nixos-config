@@ -4,7 +4,6 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     catppuccin.url = "github:catppuccin/nix";
     uwu-colors.url = "github:q60/uwu_colors";
-    neovim-nightly-overlay.url = "github:nix-community/neovim-nightly-overlay";
     vicinae = {
       url = "github:vicinaehq/vicinae";
       inputs.nixpkgs.follows = "nixpkgs";
