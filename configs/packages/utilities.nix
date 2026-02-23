@@ -47,6 +47,7 @@
     nemo-preview
     file-roller
     amfora
+    comma
   ];
 
   programs.appimage.enable = true;
