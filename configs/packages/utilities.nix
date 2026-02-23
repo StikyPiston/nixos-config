@@ -6,7 +6,6 @@
 {
   environment.systemPackages = with pkgs; [
     wget
-    git
     bat
     tmux
     nwg-displays
@@ -20,7 +19,6 @@
     lazygit
     delta
     networkmanagerapplet
-    gh
     gum
     chafa
     yt-dlp
@@ -29,7 +27,6 @@
     charm-freeze
     aerc
     yazi
-    soft-serve
     grex
     jrnl
     croc
@@ -37,7 +34,6 @@
     ripgrep
     ncdu
     fd
-    git-lfs
     superfile
     television
     lutgen

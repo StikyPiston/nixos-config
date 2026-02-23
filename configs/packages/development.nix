@@ -8,6 +8,10 @@
   environment.systemPackages = with pkgs; [
     helix
     craftos-pc
+    git
+    git-lfs
+    gh
+    soft-serve
   ];
 
   programs.direnv = {
