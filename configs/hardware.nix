@@ -10,4 +10,6 @@
     extraBackends = [ pkgs.sane-airscan ];
   };
   zramSwap.enable = true;
+
+  powerManagement.cpuFreqGovernor = "performance";
 }
