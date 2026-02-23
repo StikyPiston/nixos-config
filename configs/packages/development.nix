@@ -12,6 +12,7 @@
     git-lfs
     gh
     soft-serve
+    jujutsu
   ];
 
   programs.direnv = {
