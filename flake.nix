@@ -32,6 +32,10 @@
       url = "github:stan-breaks/ytsurf";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    theatre = {
+      url = "github:stikypiston/theatre";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {

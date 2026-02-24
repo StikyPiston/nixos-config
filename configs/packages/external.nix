@@ -15,6 +15,7 @@
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
     inputs.uwu-colors.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.fastcards.packages.${pkgs.stdenv.hostPlatform.system}.fastcards
+    inputs.theatre.packages.${pkgs.stdenv.hostPlatform.system}.theatre
     pkgs.ytsurf
   ];
 }
