@@ -23,6 +23,7 @@
     ./configs/packages/wm.nix
     ./configs/services.nix
     ./configs/users.nix
+    ./configs/virtualisation.nix
     ./hardware-configuration.nix
   ];
 
