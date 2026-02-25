@@ -10,6 +10,7 @@
     mangohud
     prismlauncher
     osu-lazer-bin
+    classicube
   ];
 
   programs.steam.enable = true;
