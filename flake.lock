@@ -150,6 +150,24 @@
         "type": "github"
       }
     },
+    "flake-utils_6": {
+      "inputs": {
+        "systems": "systems_6"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "hocusfocus": {
       "inputs": {
         "flake-utils": "flake-utils_3",
@@ -219,9 +237,30 @@
         "type": "github"
       }
     },
-    "recall": {
+    "pricetag": {
       "inputs": {
         "flake-utils": "flake-utils_4",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1772116762,
+        "narHash": "sha256-sDPWCeTFzEHkH6eeEKZQMDgnoL63i0SrhK3K9UJyjyU=",
+        "owner": "stikypiston",
+        "repo": "pricetag",
+        "rev": "fd3fa3628441b44df98554d845cf7463bb357a65",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stikypiston",
+        "repo": "pricetag",
+        "type": "github"
+      }
+    },
+    "recall": {
+      "inputs": {
+        "flake-utils": "flake-utils_5",
         "nixpkgs": [
           "nixpkgs"
         ]
@@ -247,6 +286,7 @@
         "fastcards": "fastcards",
         "hocusfocus": "hocusfocus",
         "nixpkgs": "nixpkgs_2",
+        "pricetag": "pricetag",
         "recall": "recall",
         "theatre": "theatre",
         "uwu-colors": "uwu-colors",
@@ -360,9 +400,24 @@
         "type": "github"
       }
     },
+    "systems_8": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
     "theatre": {
       "inputs": {
-        "flake-utils": "flake-utils_5",
+        "flake-utils": "flake-utils_6",
         "nixpkgs": [
           "nixpkgs"
         ]
@@ -383,7 +438,7 @@
     },
     "utils": {
       "inputs": {
-        "systems": "systems_6"
+        "systems": "systems_7"
       },
       "locked": {
         "lastModified": 1731533236,
@@ -423,7 +478,7 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "systems": "systems_7"
+        "systems": "systems_8"
       },
       "locked": {
         "lastModified": 1771893508,
