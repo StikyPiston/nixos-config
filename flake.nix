@@ -36,6 +36,10 @@
       url = "github:stikypiston/theatre";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    pricetag = {
+      url = "github:stikypiston/pricetag";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
