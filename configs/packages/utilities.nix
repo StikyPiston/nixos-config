@@ -48,6 +48,7 @@
     file-roller
     amfora
     comma
+    wl-clipboard
   ];
 
   programs.appimage.enable = true;
