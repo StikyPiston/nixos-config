@@ -17,6 +17,7 @@
     inputs.fastcards.packages.${pkgs.stdenv.hostPlatform.system}.fastcards
     inputs.theatre.packages.${pkgs.stdenv.hostPlatform.system}.theatre
     inputs.pricetag.packages.${pkgs.stdenv.hostPlatform.system}.pricetag
+    inputs.spyglass.packages.${pkgs.stdenv.hostPlatform.system}.spyglass
     pkgs.ytsurf
   ];
 }
