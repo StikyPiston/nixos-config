@@ -43,7 +43,7 @@
     spyglass = {
       url = "github:stikypiston/spyglass";
       inputs.nixpkgs.follows = "nixpkgs";
-    }
+    };
   };
 
   outputs = inputs: {
