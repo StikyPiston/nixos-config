@@ -322,11 +322,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772212594,
-        "narHash": "sha256-XUosGbkdvcJfgKL8MkZqpwDjcJnp/Lf9hRHTH7ZvWLE=",
+        "lastModified": 1772285502,
+        "narHash": "sha256-bB9z0An7rHdpf1J6zZcKdCrCJQQ9uto138NT+goAr+U=",
         "owner": "stikypiston",
         "repo": "spyglass",
-        "rev": "9bab8c4ef38381f52163ed1d9519ea734eea9ce9",
+        "rev": "44afe34762370470e08e9ad3133e401e7b11fa29",
         "type": "github"
       },
       "original": {
@@ -536,11 +536,11 @@
         "systems": "systems_9"
       },
       "locked": {
-        "lastModified": 1772210320,
-        "narHash": "sha256-ouwwjuVHxp3LTk2ZyEH8Qhis+dOcLesaJIjB/dKMZJU=",
+        "lastModified": 1772233194,
+        "narHash": "sha256-zrw7mo5DCqlbCpEnsA1BLnnv0mnaIeKkNfqIkX6GPDo=",
         "owner": "vicinaehq",
         "repo": "vicinae",
-        "rev": "72c962a3834c8ec00d334098107846bccd7ab93c",
+        "rev": "da7f5d5356eafce04e717ede00c8fecdbaa2c18a",
         "type": "github"
       },
       "original": {
