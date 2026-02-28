@@ -322,11 +322,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772285502,
-        "narHash": "sha256-bB9z0An7rHdpf1J6zZcKdCrCJQQ9uto138NT+goAr+U=",
+        "lastModified": 1772290118,
+        "narHash": "sha256-rfjGxhAVCTyKepmSFsl+67kuaR6Zg7E0ANSP4eTrCZQ=",
         "owner": "stikypiston",
         "repo": "spyglass",
-        "rev": "44afe34762370470e08e9ad3133e401e7b11fa29",
+        "rev": "89268628805b23225a21a7d2925d415dccb4ed33",
         "type": "github"
       },
       "original": {
