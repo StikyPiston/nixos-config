@@ -26,11 +26,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1771917326,
-        "narHash": "sha256-1fttr5GoUtSrcxLGt268/ACshdPzsEi2HaFheWNWTSE=",
+        "lastModified": 1772294663,
+        "narHash": "sha256-ONppHTdoLudpCo9EppptM0cXwCvm3N0mH0uHAry7J6c=",
         "owner": "stikypiston",
         "repo": "dotkeeper",
-        "rev": "e4a3a590ac303bce7216be4a654b1a40cfbd0584",
+        "rev": "88ca3b8380dc2c92ab833fcff5f59e0922644270",
         "type": "github"
       },
       "original": {
@@ -47,11 +47,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1771917439,
-        "narHash": "sha256-Y4RuFWZYOLQCFyTxnjmZ/hN5zDDgsEXnQ0umStJom10=",
+        "lastModified": 1772294327,
+        "narHash": "sha256-cH7uIcdkIJB8CGjopChWONAWIjiONVMSb2uW3ZZpbfU=",
         "owner": "stikypiston",
         "repo": "fastcards",
-        "rev": "3b691d9a20e370be2a6d0945f460cd4b004cb7af",
+        "rev": "c6528681d4de0f08a8e39c5e6c4f2a1bd72a07c0",
         "type": "github"
       },
       "original": {
@@ -194,11 +194,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1771917479,
-        "narHash": "sha256-AitvmzUReRNzG5W6tA5Q/Nzw2UK5Kzg3TCeZI7GxxAI=",
+        "lastModified": 1772294117,
+        "narHash": "sha256-fsDjjUuX0o2V5EdrJE1PcyBLmf0swiWZ5zcZs4h/M7c=",
         "owner": "stikypiston",
         "repo": "hocusfocus",
-        "rev": "5871f7012f02ca5a82e2eed7cd0ea4d677b0c825",
+        "rev": "57ddd1fb3fddade7cc192610fb3f836739e08cb8",
         "type": "github"
       },
       "original": {
@@ -263,11 +263,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772116762,
-        "narHash": "sha256-sDPWCeTFzEHkH6eeEKZQMDgnoL63i0SrhK3K9UJyjyU=",
+        "lastModified": 1772294845,
+        "narHash": "sha256-1PvtgerASFTfRD1sfSmjJa1N5dsiqlSKOMt54umJAa4=",
         "owner": "stikypiston",
         "repo": "pricetag",
-        "rev": "fd3fa3628441b44df98554d845cf7463bb357a65",
+        "rev": "b28b5ca265199f332e794c4a62b4f729ea5b3b85",
         "type": "github"
       },
       "original": {
@@ -284,11 +284,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1771917400,
-        "narHash": "sha256-orkLSgUJCYb05ePA1eGUnSF1wlTIZu5D/ZGihkQszR0=",
+        "lastModified": 1772294497,
+        "narHash": "sha256-fjmaLcotIkNSDMCWVS0vPu9kNzo7NkhlXVzEDUlR9HY=",
         "owner": "stikypiston",
         "repo": "recall",
-        "rev": "a88202058d29ad1b2dc04cbc034058cb0a15155a",
+        "rev": "27b27ce51e4a464b6a520ccae7f10c84a2808bdb",
         "type": "github"
       },
       "original": {
@@ -322,11 +322,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772290118,
-        "narHash": "sha256-rfjGxhAVCTyKepmSFsl+67kuaR6Zg7E0ANSP4eTrCZQ=",
+        "lastModified": 1772297706,
+        "narHash": "sha256-nDmTX3GQhqv1u564/TjJYRj7ByFEK7p5ZRmaun1i04M=",
         "owner": "stikypiston",
         "repo": "spyglass",
-        "rev": "89268628805b23225a21a7d2925d415dccb4ed33",
+        "rev": "7a0c4d81c24cc931f0183585406a3d67a3fee7cd",
         "type": "github"
       },
       "original": {
@@ -478,11 +478,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1771952673,
-        "narHash": "sha256-JCeHaGJ+x5dyb84cADazRqePGhb0Ef7fTDFFnPmotts=",
+        "lastModified": 1772293839,
+        "narHash": "sha256-ZGdec/JJ0jqSSLDmfEsgClg1MQzJuBj+mTR/ObQxSAI=",
         "owner": "stikypiston",
         "repo": "theatre",
-        "rev": "f2b111237d2930f630c118a483c9813531ea13ce",
+        "rev": "e9e15b295e5e6e7b4d93b09c104b6cdc4dca6af1",
         "type": "github"
       },
       "original": {
