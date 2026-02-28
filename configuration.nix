@@ -21,6 +21,7 @@
     ./configs/packages/productivity.nix
     ./configs/packages/utilities.nix
     ./configs/packages/wm.nix
+    ./configs/security.nix
     ./configs/services.nix
     ./configs/users.nix
     ./configs/virtualisation.nix
