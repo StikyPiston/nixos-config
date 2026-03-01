@@ -49,6 +49,7 @@
     amfora
     comma
     wl-clipboard
+    keepassxc
   ];
 
   programs.appimage.enable = true;
