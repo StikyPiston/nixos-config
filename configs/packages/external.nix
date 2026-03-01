@@ -18,6 +18,7 @@
     inputs.theatre.packages.${pkgs.stdenv.hostPlatform.system}.theatre
     inputs.pricetag.packages.${pkgs.stdenv.hostPlatform.system}.pricetag
     inputs.spyglass.packages.${pkgs.stdenv.hostPlatform.system}.spyglass
+    inputs.satchel.packages.${pkgs.stdenv.hostPlatform.system}.satchel
     pkgs.ytsurf
   ];
 }

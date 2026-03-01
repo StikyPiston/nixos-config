@@ -44,6 +44,10 @@
       url = "github:stikypiston/spyglass";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    satchel = {
+      url = "github:stikypiston/satchel";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
