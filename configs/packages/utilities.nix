@@ -50,6 +50,7 @@
     comma
     wl-clipboard
     keepassxc
+    fractal
   ];
 
   programs.appimage.enable = true;
