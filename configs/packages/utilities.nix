@@ -25,7 +25,6 @@
     vhs
     glow
     charm-freeze
-    aerc
     yazi
     grex
     jrnl

@@ -9,6 +9,7 @@
     libreoffice
     fontforge-gtk
     fontforge-fonttools
+    aerc
   ];
 
 }
