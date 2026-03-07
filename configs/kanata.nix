@@ -9,7 +9,7 @@
 
     keyboards = {
       internalKeyboard = {
-        devices = [ "/dev/input/by-path/*.kbd" ];
+        devices = [ "/dev/input/by-path/*-kbd" ];
 
         config = ''
           (defsrc
