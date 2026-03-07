@@ -6,7 +6,7 @@
 
 {
 
-  nixpkgs.overlays =  [ inputs.ytsurf.overlays.default ];
+  nixpkgs.overlays = [ inputs.ytsurf.overlays.default ];
 
   environment.systemPackages = [
     inputs.dotkeeper.packages.${pkgs.stdenv.hostPlatform.system}.dotkeeper
