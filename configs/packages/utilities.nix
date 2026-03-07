@@ -55,6 +55,7 @@
     nvd
     carapace
     pass
+    qtpass
   ];
 
   programs.appimage.enable = true;
