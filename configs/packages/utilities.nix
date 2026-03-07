@@ -54,9 +54,7 @@
     nix-output-monitor
     nvd
     carapace
-    gnupg
     pass
-    pinentry-gtk2
   ];
 
   programs.appimage.enable = true;

@@ -27,4 +27,9 @@
     (pkgs.writeScriptBin "sudo" ''exec doas "$@" '')
   ];
 
+  programs.gnupg.agent = {
+    enable = true;
+    pinentryPackage = pkgs.pinentry-gtk2;
+  };
+
 }
