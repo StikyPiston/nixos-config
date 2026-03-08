@@ -19,6 +19,7 @@
     inputs.pricetag.packages.${pkgs.stdenv.hostPlatform.system}.pricetag
     inputs.spyglass.packages.${pkgs.stdenv.hostPlatform.system}.spyglass
     inputs.satchel.packages.${pkgs.stdenv.hostPlatform.system}.satchel
+    inputs.jots.packages.${pkgs.stdenv.hostPlatform.system}.jots
     pkgs.ytsurf
   ];
 }

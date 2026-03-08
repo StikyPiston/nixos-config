@@ -48,6 +48,10 @@
       url = "github:stikypiston/satchel";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    jots = {
+      url = "github:stikypiston/jots";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
