@@ -56,6 +56,7 @@
     carapace
     pass
     qtpass
+    zellij
   ];
 
   programs.appimage.enable = true;
