@@ -7,7 +7,6 @@
   programs.ghostty = {
     enable = true;
     settings = {
-      theme = "Catppuccin Mocha";
       font-family = "Martian Mono Cn Md";
       background-opacity = 0.78;
       window-padding-x = "8,8";

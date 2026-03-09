@@ -10,6 +10,7 @@
     accent = "mauve";
 
     yazi.enable = true;
+    ghostty.enable = true;
   };
 
 }
