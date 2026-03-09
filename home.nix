@@ -9,6 +9,7 @@
     ./configs/ghostty.nix
     ./configs/yazi.nix
     ./configs/catppuccin.nix
+    ./configs/waybar.nix
   ];
 
   home.username = "distrorockhopper";

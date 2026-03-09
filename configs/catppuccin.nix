@@ -11,6 +11,7 @@
 
     yazi.enable = true;
     ghostty.enable = true;
+    waybar.enable = true;
   };
 
 }
