@@ -6,27 +6,27 @@
   nixpkgs.config.allowUnfree = true;
 
   imports = [
-    ./configs/boot.nix
-    ./configs/catppuccin.nix
-    ./configs/environment.nix
-    ./configs/garbagecollector.nix
-    ./configs/hardware.nix
-    ./configs/kanata.nix
-    ./configs/locale.nix
-    ./configs/networking.nix
-    ./configs/packages/development.nix
-    ./configs/packages/external.nix
-    ./configs/packages/fonts.nix
-    ./configs/packages/gaming.nix
-    ./configs/packages/languages.nix
-    ./configs/packages/multimedia.nix
-    ./configs/packages/productivity.nix
-    ./configs/packages/utilities.nix
-    ./configs/packages/wm.nix
-    ./configs/security.nix
-    ./configs/services.nix
-    ./configs/users.nix
-    ./configs/virtualisation.nix
+    ./modules/boot.nix
+    ./modules/catppuccin.nix
+    ./modules/environment.nix
+    ./modules/garbagecollector.nix
+    ./modules/hardware.nix
+    ./modules/kanata.nix
+    ./modules/locale.nix
+    ./modules/networking.nix
+    ./modules/packages/development.nix
+    ./modules/packages/external.nix
+    ./modules/packages/fonts.nix
+    ./modules/packages/gaming.nix
+    ./modules/packages/languages.nix
+    ./modules/packages/multimedia.nix
+    ./modules/packages/productivity.nix
+    ./modules/packages/utilities.nix
+    ./modules/packages/wm.nix
+    ./modules/security.nix
+    ./modules/services.nix
+    ./modules/users.nix
+    ./modules/virtualisation.nix
     ./hardware-configuration.nix
   ];
 
