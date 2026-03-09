@@ -53,6 +53,8 @@
     carapace
     pass
     proton-authenticator
+    protonvpn-gui
+    wireguard-tools
   ];
 
   programs.appimage.enable = true;
