@@ -10,6 +10,7 @@
     ./configs/yazi.nix
     ./configs/catppuccin.nix
     ./configs/waybar.nix
+    ./configs/gtk.nix
   ];
 
   home.username = "distrorockhopper";
