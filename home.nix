@@ -7,6 +7,8 @@
     ./configs/tmux.nix
     ./configs/starship.nix
     ./configs/ghostty.nix
+    ./configs/yazi.nix
+    ./configs/catppuccin.nix
   ];
 
   home.username = "distrorockhopper";
