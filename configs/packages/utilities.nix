@@ -52,7 +52,7 @@
     nvd
     carapace
     pass
-    zellij
+    proton-authenticator
   ];
 
   programs.appimage.enable = true;

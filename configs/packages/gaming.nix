@@ -16,7 +16,19 @@
     cemu
   ];
 
-  programs.steam.enable = true;
+  programs.steam = {
+    enable = true;
+    extraCompatPackages = with pkgs; [
+      proton-ge-bin
+    ];
+    package = pkgs.steam.override {
+      extraEnv = {
+        MANGOHUD = "1";
+        GAMEMODERUN = "1";
+      };
+    };
+  };
+  programs.gamescope.enable = true;
   programs.gamemode.enable = true;
   services.joycond.enable = true;
 
