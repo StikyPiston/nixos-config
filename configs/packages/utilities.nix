@@ -26,7 +26,6 @@
     glow
     charm-freeze
     yazi
-    grex
     jrnl
     croc
     tlrc
@@ -45,8 +44,6 @@
     nemo-emblems
     nemo-preview
     file-roller
-    amfora
-    comma
     wl-clipboard
     keepassxc
     fractal

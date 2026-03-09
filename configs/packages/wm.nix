@@ -17,7 +17,6 @@
     starship
     rmpc
     btop
-    hyprpicker
     wlogout
     vicinae
     colloid-gtk-theme
