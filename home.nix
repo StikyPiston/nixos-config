@@ -23,6 +23,7 @@
     ./configs/helix.nix
     ./configs/mangohud.nix
     ./configs/swaync.nix
+    ./configs/fastfetch.nix
   ];
 
   home.username = "distrorockhopper";
