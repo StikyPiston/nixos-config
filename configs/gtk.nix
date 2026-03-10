@@ -9,10 +9,12 @@
     enable = true;
     theme = {
       name = "catppuccin-mocha-mauve-standard";
-      package = (pkgs.catppuccin-gtk.override {
-        variant = "mocha";
-        accents = [ "mauve" ];
-      });
+      package = (
+        pkgs.catppuccin-gtk.override {
+          variant = "mocha";
+          accents = [ "mauve" ];
+        }
+      );
     };
     cursorTheme = {
       name = "catppuccin-mocha-dark";

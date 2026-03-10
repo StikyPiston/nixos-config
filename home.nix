@@ -17,6 +17,7 @@
     ./configs/niri.nix
     ./configs/lazygit.nix
     ./configs/btop.nix
+    ./configs/nushell.nix
   ];
 
   home.username = "distrorockhopper";
