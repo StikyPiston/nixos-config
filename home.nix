@@ -22,6 +22,7 @@
     ./configs/bat.nix
     ./configs/helix.nix
     ./configs/mangohud.nix
+    ./configs/swaync.nix
   ];
 
   home.username = "distrorockhopper";
