@@ -1,0 +1,11 @@
+{
+  ...
+}:
+
+{
+
+  programs.bat = {
+    enable = true;
+  };
+
+}

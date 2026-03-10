@@ -19,6 +19,7 @@
     ./configs/btop.nix
     ./configs/nushell.nix
     ./configs/television.nix
+    ./configs/bat.nix
   ];
 
   home.username = "distrorockhopper";
