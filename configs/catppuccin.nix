@@ -8,16 +8,9 @@
     # enable = true;
     flavor = "mocha";
     accent = "mauve";
+    enable = true;
 
-    yazi.enable = true;
-    ghostty.enable = true;
-    waybar.enable = true;
-    gtk.icon.enable = true;
-    cursors.enable = true;
-    cursors.accent = "dark";
-    cava.enable = true;
     cava.transparent = true;
-    gh-dash.enable = true;
   };
 
 }
