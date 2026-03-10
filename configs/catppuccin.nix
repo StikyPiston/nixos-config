@@ -15,8 +15,6 @@
     gtk.icon.enable = true;
     cursors.enable = true;
     cursors.accent = "dark";
-    cava.enable = true;
-    cava.transparent = true;
   };
 
 }
