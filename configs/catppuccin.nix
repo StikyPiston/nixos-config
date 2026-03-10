@@ -17,6 +17,7 @@
     cursors.accent = "dark";
     cava.enable = true;
     cava.transparent = true;
+    gh-dash.enable = true;
   };
 
 }

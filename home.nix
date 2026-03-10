@@ -13,6 +13,7 @@
     ./configs/gtk.nix
     ./configs/cava.nix
     ./configs/hyprlock.nix
+    ./configs/gh-dash.nix
   ];
 
   home.username = "distrorockhopper";
