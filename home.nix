@@ -15,6 +15,8 @@
     ./configs/hyprlock.nix
     ./configs/gh-dash.nix
     ./configs/niri.nix
+    ./configs/git.nix
+    ./configs/lazygit.nix
   ];
 
   home.username = "distrorockhopper";
