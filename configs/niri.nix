@@ -85,7 +85,7 @@
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
     spawn-at-startup "swww-daemon"
-    spawn-at-startup "swww" "img" "/home/distrorockhopper/.wallpaper"
+    spawn-at-startup "swww" "img" ${./wallpaper.jpg}
     spawn-at-startup "xwayland-satellite"
     spawn-at-startup "alertify"
     spawn-at-startup "systemctl" "--user" "start" "hyprpolkitagent"
