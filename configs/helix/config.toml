@@ -1,0 +1,100 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number              = "absolute"
+cursorline               = true
+color-modes              = true
+true-color               = true
+scrolloff                = 99
+default-yank-register    = "+"
+bufferline               = "always"
+atomic-save              = true
+trim-final-newlines      = true
+trim-trailing-whitespace = true
+popup-border             = "all"
+editor-config            = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.statusline]
+left  = [ "mode", "file-name", "file-modification-indicator" ]
+right = [ "file-type", "position", "version-control", "spacer", "diagnostics", "spinner" ]
+mode.normal = " n"
+mode.insert = " i"
+mode.select = " s"
+
+[editor.lsp]
+enable                    = true
+display-messages          = true
+display-progress-messages = true
+
+[editor.file-picker]
+hidden          = false
+git-ignore      = true
+follow-symlinks = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+'*' = '*'
+
+[editor.auto-save]
+focus-lost          = true
+after-delay.enable  = true
+after-delay.timeout = 30000
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "warning"
+
+[keys.normal]
+";" = "insert_mode"
+"i" = "move_line_up"
+"j" = "move_char_left"
+"k" = "move_line_down"
+"l" = "move_char_right"
+
+up    = "no_op"
+down  = "no_op"
+left  = "no_op"
+right = "no_op"
+
+"C-i" = "jump_view_right"
+"C-k" = "jump_view_up"
+"C-j" = "jump_view_down"
+"C-l" = "jump_view_left"
+
+"'" = "collapse_selection"
+
+[keys.select]
+up    = "no_op"
+down  = "no_op"
+left  = "no_op"
+right = "no_op"
+
+"i" = "move_line_up"
+"j" = "move_char_left"
+"k" = "move_line_down"
+"l" = "move_char_right"
+
+[keys.normal.t]
+"T" = "file_explorer"
+
+[keys.normal." "]
+"l" = { "g" = [ ":write-all", ":new", ":insert-output lazygit", ":buffer-close!", ":redraw", ":reload-all" ], "f" = ":format"}
+"w" = ":write"
+"q" = ":quit"
+
+[keys.normal.h]
+"K" = ":hsplit"
+"L" = ":vsplit"
