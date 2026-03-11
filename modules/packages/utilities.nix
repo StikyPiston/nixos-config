@@ -8,13 +8,10 @@
     wget
     bat
     tmux
-    nwg-displays
-    nwg-look
     eza
     swaynotificationcenter
     man
     figlet
-    uxplay
     zoxide
     lazygit
     delta
@@ -26,7 +23,6 @@
     glow
     charm-freeze
     yazi
-    jrnl
     croc
     tlrc
     ripgrep
