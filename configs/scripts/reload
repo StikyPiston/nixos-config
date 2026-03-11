@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+pkill $1 && $1 & exit

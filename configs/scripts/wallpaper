@@ -1,0 +1,17 @@
+#!/usr/bin/env nu
+
+let wall_dir = "/home/distrorockhopper/Pictures/wallpapers/space"
+let target = "/home/distrorockhopper/Pictures/wallpapers/currentpaper"
+
+# pick a random file
+let random_file = (ls $wall_dir | where type == file | get name | shuffle | first)
+
+# remove old symlink or file
+rm -f $target
+
+# create new symlink
+ln -s $random_file $target
+
+# restart hyprpaper
+pkill hyprpaper
+hyprpaper &

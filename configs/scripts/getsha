@@ -1,0 +1,33 @@
+#!/usr/bin/env nu
+
+def main [url: string] {
+  # Create temp file
+  let tempfile = (mktemp)
+
+  # Download file
+  http get $url --raw | save -f $tempfile
+
+  # Calculate sha256 checksum, and extract the checksum
+  let checksum = (
+    ^sha256sum $tempfile
+    | split row ""
+    | get 0
+  )
+
+  # Print checksum
+  print $checksum
+
+  # Copy checksum to clipboard
+  if (which wl-copy | is-not-empty) {
+    $checksum | ^wl-copy
+  } else if (which xclip | is-not-empty) {
+    $checksum | ^xclip -selection clipboard
+  } else if (which pbcopy | is-not-empty ) {
+    $checksum | pbcopy
+  } else {
+    print "No clipboard utility found (wl-copy or xclip)"
+  }
+
+  # Remove tempfile
+  rm $tempfile
+}

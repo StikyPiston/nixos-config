@@ -27,6 +27,7 @@
     ./configs/spylass.nix
     ./configs/ytsurf.nix
     ./configs/zathura.nix
+    ./configs/scripts.nix
   ];
 
   home.username = "distrorockhopper";
