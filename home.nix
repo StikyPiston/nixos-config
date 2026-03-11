@@ -4,30 +4,30 @@
 
 {
   imports = [
-    ./configs/tmux.nix
-    ./configs/starship.nix
-    ./configs/ghostty.nix
-    ./configs/yazi.nix
-    ./configs/catppuccin.nix
-    ./configs/waybar.nix
-    ./configs/gtk.nix
-    ./configs/cava.nix
-    ./configs/hyprlock.nix
-    ./configs/gh-dash.nix
-    ./configs/niri.nix
-    ./configs/lazygit.nix
-    ./configs/btop.nix
-    ./configs/nushell.nix
-    ./configs/television.nix
     ./configs/bat.nix
-    ./configs/helix.nix
-    ./configs/mangohud.nix
-    ./configs/swaync.nix
+    ./configs/btop.nix
+    ./configs/catppuccin.nix
+    ./configs/cava.nix
     ./configs/fastfetch.nix
+    ./configs/gh-dash.nix
+    ./configs/ghostty.nix
+    ./configs/gtk.nix
+    ./configs/helix.nix
+    ./configs/hyprlock.nix
+    ./configs/lazygit.nix
+    ./configs/mangohud.nix
+    ./configs/niri.nix
+    ./configs/nushell.nix
+    ./configs/scripts.nix
     ./configs/spylass.nix
+    ./configs/starship.nix
+    ./configs/swaync.nix
+    ./configs/television.nix
+    ./configs/tmux.nix
+    ./configs/waybar.nix
+    ./configs/yazi.nix
     ./configs/ytsurf.nix
     ./configs/zathura.nix
-    ./configs/scripts.nix
   ];
 
   home.username = "distrorockhopper";
