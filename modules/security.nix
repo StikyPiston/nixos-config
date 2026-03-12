@@ -5,10 +5,6 @@
 
 {
 
-  # security.sudo.extraConfig = ''
-  #   Defaults passprompt=" Password: "
-  # '';
-
   security.sudo.enable = false;
 
   security.doas = {
