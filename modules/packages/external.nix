@@ -9,7 +9,6 @@
   nixpkgs.overlays = [ inputs.ytsurf.overlays.default ];
 
   environment.systemPackages = [
-    inputs.dotkeeper.packages.${pkgs.stdenv.hostPlatform.system}.dotkeeper
     inputs.recall.packages.${pkgs.stdenv.hostPlatform.system}.recall
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.hocusfocus.packages.${pkgs.stdenv.hostPlatform.system}.hocusfocus
