@@ -8,7 +8,6 @@
     zathura
     libreoffice
     aerc
-    openclaw
   ];
 
 }
