@@ -9,7 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     recall = {
-      url = "github:stikypiston/recall";
+      url = "github:indium114/recall";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     zen-browser = {
@@ -17,11 +17,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     hocusfocus = {
-      url = "github:stikypiston/hocusfocus";
+      url = "github:indium114/hocusfocus";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     fastcards = {
-      url = "github:stikypiston/fastcards";
+      url = "github:indium114/fastcards";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     ytsurf = {
@@ -29,23 +29,23 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     theatre = {
-      url = "github:stikypiston/theatre";
+      url = "github:indium114/theatre";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     pricetag = {
-      url = "github:stikypiston/pricetag";
+      url = "github:indium114/pricetag";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     spyglass = {
-      url = "github:stikypiston/spyglass";
+      url = "github:indium114/spyglass";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     satchel = {
-      url = "github:stikypiston/satchel";
+      url = "github:indium114/satchel";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     jots = {
-      url = "github:stikypiston/jots";
+      url = "github:indium114/jots";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
