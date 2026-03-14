@@ -14,7 +14,7 @@
           3
         ];
         sort_dir_first = true;
-        show_hidden = true;
+        show_hidden = false;
       };
 
       preview = {
