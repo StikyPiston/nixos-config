@@ -52,6 +52,7 @@
     protonvpn-gui
     wireguard-tools
     home-manager
+    transmission_4-gtk
   ];
 
   programs.appimage.enable = true;
