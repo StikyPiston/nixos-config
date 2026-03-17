@@ -15,6 +15,7 @@
     jujutsu
     lazyjj
     just
+    tea
   ];
 
   programs.direnv = {
