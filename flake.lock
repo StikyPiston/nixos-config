@@ -211,11 +211,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773681856,
-        "narHash": "sha256-+bRqxoFCJFO9ZTFhcCkzNXbDT3b8AEk88fyjB7Is6eo=",
+        "lastModified": 1773810247,
+        "narHash": "sha256-6Vz1Thy/1s7z+Rq5OfkWOBAdV4eD+OrvDs10yH6xJzQ=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "57d5560ee92a424fb71fde800acd6ed2c725dfce",
+        "rev": "d47357a4c806d18a3e853ad2699eaec3c01622e7",
         "type": "github"
       },
       "original": {
@@ -232,11 +232,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773753933,
-        "narHash": "sha256-dFrX8PaISS41WfUEOHiIvsYu0wmrtWZJKGBPpnXpZvE=",
+        "lastModified": 1773825107,
+        "narHash": "sha256-MJAQt2c+dqoXqD06EEjkelPHc0uVDtq74Jfh28unyEM=",
         "owner": "indium114",
         "repo": "jots",
-        "rev": "137071cdf4d4345e79a23fbefd718a4aa9dbdf67",
+        "rev": "a1377dedfac0ee5ea1b6b7b61215027773ec4d6d",
         "type": "github"
       },
       "original": {
@@ -263,11 +263,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1773646010,
-        "narHash": "sha256-iYrs97hS7p5u4lQzuNWzuALGIOdkPXvjz7bviiBjUu8=",
+        "lastModified": 1773734432,
+        "narHash": "sha256-IF5ppUWh6gHGHYDbtVUyhwy/i7D261P7fWD1bPefOsw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "5b2c2d84341b2afb5647081c1386a80d7a8d8605",
+        "rev": "cda48547b432e8d3b18b4180ba07473762ec8558",
         "type": "github"
       },
       "original": {
@@ -349,8 +349,7 @@
         "spyglass": "spyglass",
         "theatre": "theatre",
         "uwu-colors": "uwu-colors",
-        "ytsurf": "ytsurf",
-        "zen-browser": "zen-browser"
+        "ytsurf": "ytsurf"
       }
     },
     "satchel": {
@@ -605,26 +604,6 @@
       "original": {
         "owner": "stan-breaks",
         "repo": "ytsurf",
-        "type": "github"
-      }
-    },
-    "zen-browser": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1773722260,
-        "narHash": "sha256-U8MsSiqqYZHR3oKE+cCZ2AJt3b4LcXs+oQuNLipaO78=",
-        "owner": "youwen5",
-        "repo": "zen-browser-flake",
-        "rev": "0e6e43342fb3e9a3439fafa777d8cdf98e4ffc49",
-        "type": "github"
-      },
-      "original": {
-        "owner": "youwen5",
-        "repo": "zen-browser-flake",
         "type": "github"
       }
     }
