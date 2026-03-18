@@ -44,13 +44,7 @@
       Type = "simple";
 
       User = "distrorockhopper";
-      WorkingDirectory = "/home/distrorockhopper/4get";
-      ExecStart = ''
-        ${pkgs.docker}/bin/docker run -d -p 8989:80 \
-                             -e FOURGET_SERVER_NAME='4get' \
-                             -e FOURGET_PROTO='http' \
-                             -e FOURGET_SERVER_SHORT_DESCRIPTION='Home 4get instance' \
-                            luuul/4get:latest'';
+      ExecStart = "${pkgs.docker}/bin/docker run -d -p 8989:80 -e FOURGET_SERVER_NAME='4get' -e FOURGET_PROTO='http' -e FOURGET_SERVER_SHORT_DESCRIPTION='Home 4get instance' luuul/4get:latest";
 
       Restart = "always";
       RestartSec = 5;

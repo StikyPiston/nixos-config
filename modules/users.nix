@@ -15,6 +15,7 @@
       "lpadmin"
       "scanner"
       "libvirtd"
+      "docker"
     ];
     shell = pkgs.nushell;
     packages = with pkgs; [ ];
