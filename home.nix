@@ -19,7 +19,7 @@
     ./configs/niri.nix
     ./configs/nushell.nix
     ./configs/scripts.nix
-    ./configs/spylass.nix
+    ./configs/spyglass.nix
     ./configs/starship.nix
     ./configs/swaync.nix
     ./configs/television.nix
