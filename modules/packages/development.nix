@@ -12,8 +12,6 @@
     git-lfs
     gh
     soft-serve
-    jujutsu
-    lazyjj
     just
     tea
   ];
