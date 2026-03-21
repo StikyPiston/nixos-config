@@ -18,5 +18,5 @@
 - [ ] Install `asciinema`
 - [x] Make home-manager config part of NixOS modules in *flake.nix* (nixosConfigurations."frosties" output)
 - [ ] Set garbage collector to only keep 4 generations, instead of deleting generations older than a week
-- [ ] Remove unneeded packages
+- [x] Remove unneeded packages
 - [ ] Fix joycond
