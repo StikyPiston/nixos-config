@@ -14,6 +14,7 @@
         config = ''
           (defsrc
             caps
+            esc
           )
 
           (defalias
@@ -21,7 +22,7 @@
           )
 
           (deflayer base
-            @modtap
+            @modtap _
           )
         '';
       };
