@@ -18,7 +18,7 @@
           )
 
           (defalias
-            modtap (tap-hold 100 100 esc lctrl)
+            modtap (tap-hold 50 50 esc lctrl)
           )
 
           (deflayer base
