@@ -38,8 +38,8 @@ $env.BAT_THEME         = "Catppuccin Mocha"
 $env.EDITOR            = "hx"
 $env.PLAYDATE_SDK_PATH = "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2"
 $env.GOPATH            = "/home/distrorockhopper/go"
+$env.JUST_CHOOSER      = "tv"
 
-$env.HOMEBREW_NO_ENV_HINTS = 1
 
 recall list
 fastcards amount
