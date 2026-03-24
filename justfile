@@ -6,3 +6,6 @@ boot:
 
 test:
     nh os test
+
+update:
+    nix flake update
