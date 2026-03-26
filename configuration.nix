@@ -5,7 +5,7 @@
 {
 
   nixpkgs.config.allowUnfree = true;
-  nix.config.trusted-users = [
+  nix.settings.trusted-users = [
     "root"
     "distrorockhopper"
   ];
