@@ -5,6 +5,7 @@
 {
 
   xdg.configFile."niri/config.kdl".text = ''
+    // Input settings
     input {
         keyboard {
             xkb {
@@ -27,6 +28,7 @@
         }
     }
 
+    // Monitor settings
     output "eDP-1" {
         mode "1920x1080@60"
         scale 1
@@ -41,15 +43,18 @@
     	position x=0 y=0
     }
 
+    // Env variables
     environment {
     		DISPLAY ":0"
     }
 
+    // Set cursor
     cursor {
     	xcursor-theme "catppuccin-mocha-dark"
     	xcursor-size 24
     }
 
+    // Window layour
     layout {
         gaps 16
         center-focused-column "always"
@@ -81,6 +86,7 @@
         }
     }
 
+    // Startup apps
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
     spawn-at-startup "swww-daemon"
@@ -92,12 +98,15 @@
     spawn-at-startup "protonvpn-app" "--start-minimized"
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
     spawn-at-startup "blueman-applet"
+    spawn-at-startup "sunsetr"
 
-    screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+    // Screenshot path
+    screenshot-path "~/Pictures/Screenshots/screenshot-%Y%m%d_%H%M%S.png"
 
     animations {
     }
 
+    // Window rules
     window-rule {
         match app-id=r#"^org\.wezfurlong\.wezterm$"#
         default-column-width {}
@@ -118,6 +127,7 @@
     	max-height 200
     }
 
+    /// Open Spyglass window floating and small
     window-rule {
     	match title=r#"^Spyglass$"#
 
@@ -127,12 +137,13 @@
     	max-height 670
     }
 
-    // Open the Firefox picture-in-picture player as floating by default.
+    /// Open the Firefox picture-in-picture player as floating by default.
     window-rule {
         match app-id=r#"firefox$"# title="^Picture-in-Picture$"
         open-floating true
     }
 
+    /// Block password managers from screen capture
     window-rule {
         match app-id=r#"^org\.keepassxc\.KeePassXC$"#
         match app-id=r#"^org\.gnome\.World\.Secrets$"#
@@ -145,40 +156,52 @@
         clip-to-geometry true
     }
 
+    // Keybinds
     binds {
+        // Hotkey overlay
         Mod+Shift+Slash { show-hotkey-overlay; }
         XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
         XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
         XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
         XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
+        // Overview
         Mod+O repeat=false { toggle-overview; }
 
+        // Quit window
         Mod+Q { close-window; }
 
+        // Window focus
         Mod+J { focus-column-left; }
         Mod+K { focus-window-down; }
         Mod+I { focus-window-up; }
         Mod+L { focus-column-right; }
 
+        Mod+Home             { focus-column-first; }
+        Mod+End              { focus-column-last; }
+        Mod+Ctrl+Home        { move-column-to-first; }
+        Mod+Page_Up          { focus-workspace-up; }
+        Mod+Page_Down        { focus-workspace-down; }
+        Mod+WheelScrollDown  cooldown-ms=150 { focus-workspace-down; }
+        Mod+WheelScrollUp    cooldown-ms=150 { focus-workspace-up; }
+        Mod+WheelScrollRight { focus-column-right; }
+        Mod+WheelScrollLeft  { focus-column-left; }
+        Mod+Shift+WheelScrollDown      { focus-column-right; }
+        Mod+Shift+WheelScrollUp        { focus-column-left; }
+
+        // Window move
         Mod+Shift+J { move-column-left; }
         Mod+Shift+K { move-window-down; }
         Mod+Shift+I { move-window-up; }
         Mod+Shift+L { move-column-right; }
-
-        Mod+Home { focus-column-first; }
-        Mod+End  { focus-column-last; }
-        Mod+Ctrl+Home { move-column-to-first; }
-        Mod+Ctrl+End  { move-column-to-last; }
 
         Mod+Shift+Ctrl+J { move-column-to-monitor-left; }
         Mod+Shift+Ctrl+K { move-column-to-monitor-down; }
         Mod+Shift+Ctrl+I { move-column-to-monitor-up; }
         Mod+Shift+Ctrl+L { move-column-to-monitor-right; }
 
-        Mod+Page_Down      { focus-workspace-down; }
-        Mod+Page_Up        { focus-workspace-up; }
         Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
+        Mod+Ctrl+End       { move-column-to-last; }
         Mod+Ctrl+Page_Up   { move-column-to-workspace-up; }
         Mod+Ctrl+U         { move-column-to-workspace-down; }
         Mod+Ctrl+I         { move-column-to-workspace-up; }
@@ -186,21 +209,16 @@
         Mod+Shift+Page_Down { move-workspace-down; }
         Mod+Shift+Page_Up   { move-workspace-up; }
 
-        Mod+WheelScrollDown      cooldown-ms=150 { focus-workspace-down; }
-        Mod+WheelScrollUp        cooldown-ms=150 { focus-workspace-up; }
         Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
         Mod+Ctrl+WheelScrollUp   cooldown-ms=150 { move-column-to-workspace-up; }
 
-        Mod+WheelScrollRight      { focus-column-right; }
-        Mod+WheelScrollLeft       { focus-column-left; }
         Mod+Ctrl+WheelScrollRight { move-column-right; }
         Mod+Ctrl+WheelScrollLeft  { move-column-left; }
 
-        Mod+Shift+WheelScrollDown      { focus-column-right; }
-        Mod+Shift+WheelScrollUp        { focus-column-left; }
         Mod+Ctrl+Shift+WheelScrollDown { move-column-right; }
         Mod+Ctrl+Shift+WheelScrollUp   { move-column-left; }
 
+        // Workspace focus
         Mod+1 { focus-workspace 1; }
         Mod+2 { focus-workspace 2; }
         Mod+3 { focus-workspace 3; }
@@ -220,15 +238,11 @@
         Mod+Shift+8 { move-column-to-workspace 8; }
         Mod+Shift+9 { move-column-to-workspace 9; }
 
-        // Alternatively, there are commands to move just a single window:
-        // Mod+Ctrl+1 { move-window-to-workspace 1; }
-
-        // Switches focus between the current and the previous workspace.
-        // Mod+Tab { focus-workspace-previous; }
-
+        // Tile windows
         Mod+Comma  { consume-or-expel-window-left; }
         Mod+Period { consume-or-expel-window-right; }
 
+        // Change column width
         Mod+R { switch-preset-column-width; }
         Mod+Shift+R { switch-preset-window-height; }
         Mod+Ctrl+R { reset-window-height; }
@@ -254,8 +268,6 @@
         Mod+Shift+V { switch-focus-between-floating-and-tiling; }
 
         // Toggle tabbed column display mode.
-        // Windows in this column will appear as vertical tabs,
-        // rather than stacked on top of each other.
         Mod+W { toggle-column-tabbed-display; }
 
         Print { screenshot; }
@@ -264,8 +276,10 @@
 
         Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
+        // Turn off monitors
         Mod+Shift+P { power-off-monitors; }
 
+        // Spawn applications
         Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+new-window"; }
         Mod+Ctrl+Grave { spawn "vicinae" "toggle"; }
     	Mod+Return { spawn "ghostty"; }
@@ -276,12 +290,15 @@
     	Mod+M { spawn "ghostty" "-e" "rmpc"; }
     }
 
+    // Overview settings
     overview {
     	backdrop-color "#181926";
     }
 
+    // Disable client-side window decorations
     prefer-no-csd
 
+    // Don't show hotkey overlay
     hotkey-overlay {
     	skip-at-startup
     }
