@@ -18,6 +18,7 @@
     inputs.spyglass.packages.${pkgs.stdenv.hostPlatform.system}.spyglass
     inputs.satchel.packages.${pkgs.stdenv.hostPlatform.system}.satchel
     inputs.jots.packages.${pkgs.stdenv.hostPlatform.system}.jots
+    inputs.flow_state.packages.${pkgs.stdenv.hostPlatform.system}.default
     pkgs.ytsurf
   ];
 }

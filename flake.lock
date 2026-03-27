@@ -183,6 +183,26 @@
         "type": "github"
       }
     },
+    "flow_state": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1774632867,
+        "narHash": "sha256-T2xttUBe1xjdo4qGTwp9IXoUA0OQDW/op8oYZM1yivw=",
+        "owner": "indium114",
+        "repo": "flow_state",
+        "rev": "e83e2aa2acdbdc81d7a5ca1b24a9f2066d79b6a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "indium114",
+        "repo": "flow_state",
+        "type": "github"
+      }
+    },
     "hocusfocus": {
       "inputs": {
         "flake-utils": "flake-utils_2",
@@ -339,6 +359,7 @@
       "inputs": {
         "catppuccin": "catppuccin",
         "fastcards": "fastcards",
+        "flow_state": "flow_state",
         "hocusfocus": "hocusfocus",
         "home-manager": "home-manager",
         "jots": "jots",
