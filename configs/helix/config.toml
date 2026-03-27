@@ -82,10 +82,10 @@ down  = "no_op"
 left  = "no_op"
 right = "no_op"
 
-"i" = "move_line_up"
-"j" = "move_char_left"
-"k" = "move_line_down"
-"l" = "move_char_right"
+"i" = "extend_line_up"
+"j" = "extend_char_left"
+"k" = "extend_line_down"
+"l" = "extend_char_right"
 
 [keys.normal.t]
 "T" = "file_explorer"
