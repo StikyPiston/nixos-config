@@ -9,6 +9,7 @@
     ./configs/btop.nix
     ./configs/catppuccin.nix
     ./configs/cava.nix
+    ./configs/defaults.nix
     ./configs/fastfetch.nix
     ./configs/gh-dash.nix
     ./configs/ghostty.nix
