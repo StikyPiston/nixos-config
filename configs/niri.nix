@@ -88,7 +88,7 @@
 
     // Startup apps
     spawn-at-startup "swaync"
-    spawn-at-startup "waybar"
+    spawn-at-startup "waybar & sleep 1"
     spawn-at-startup "swww-daemon"
     spawn-at-startup "swww" "img" "${./wallpaper.jpg}"
     spawn-at-startup "xwayland-satellite"
