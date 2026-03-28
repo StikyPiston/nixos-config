@@ -87,8 +87,6 @@
     }
 
     // Startup apps
-    spawn-at-startup "swaync"
-    spawn-at-startup "waybar & sleep 1"
     spawn-at-startup "swww-daemon"
     spawn-at-startup "swww" "img" "${./wallpaper.jpg}"
     spawn-at-startup "xwayland-satellite"
@@ -99,6 +97,8 @@
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
     spawn-at-startup "blueman-applet"
     spawn-at-startup "sunsetr"
+    spawn-at-startup "swaync"
+    spawn-at-startup "waybar"
 
     // Screenshot path
     screenshot-path "~/Pictures/Screenshots/screenshot-%Y%m%d_%H%M%S.png"
