@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1774098279,
-        "narHash": "sha256-OoQRoQmwCuBBXObi82F6C+eYV1lYCt5Va5k/VckJ6vo=",
+        "lastModified": 1774616169,
+        "narHash": "sha256-fP4bU3SOH5sefSl6EagqULFs+bXoo3h3VLQCCyJplo4=",
         "owner": "catppuccin",
         "repo": "nix",
-        "rev": "cb374516af3ccc3aa0c6ef518292bf4ae417a60e",
+        "rev": "e616c61cd9f7b05b32af266bc005fa266860dacf",
         "type": "github"
       },
       "original": {
@@ -26,11 +26,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772375840,
-        "narHash": "sha256-HDaAQzLZ+Nj+uu38CkLIddqs+CG1YPBdIf/zQF3zo2c=",
+        "lastModified": 1774628467,
+        "narHash": "sha256-xzEhM0QU84fmYiuS0jsFi17wTiJdK21lPUJJyGZvW/o=",
         "owner": "indium114",
         "repo": "fastcards",
-        "rev": "44fb6d5e33627c375c8af635397c5fb96c9ef05a",
+        "rev": "72ab67c5d7f4081f97206ef995c8b21e4fed5c8f",
         "type": "github"
       },
       "original": {
@@ -229,11 +229,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772550762,
-        "narHash": "sha256-OFEOxkys/wVDFGIXxit9gH4qP7OmsulBTHt4ACN7L74=",
+        "lastModified": 1774628506,
+        "narHash": "sha256-5AhTXjQyaf57XKqYxVYXm/0n9aedFdHczIi+XU1lakU=",
         "owner": "indium114",
         "repo": "hocusfocus",
-        "rev": "87a29784c39fcd3cc164709a6c13e25cfe652a34",
+        "rev": "2fd3a543c25fd0ac28b8389b02af524bf8c09da5",
         "type": "github"
       },
       "original": {
@@ -249,11 +249,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774584114,
-        "narHash": "sha256-uWR9fC+4NykFJVn4GN4Ini9LX+w8Llj7BnWKKp0N6bw=",
+        "lastModified": 1774715571,
+        "narHash": "sha256-MMjHif46sc/iLF9JqxBhFaueSPRcjPeP9AiujERH6N0=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "4b1be5c38be350ee9452a4847945ce71d950dc31",
+        "rev": "557f5e38ce94ef0f02f05de7ae65057d4b2a89a6",
         "type": "github"
       },
       "original": {
@@ -270,11 +270,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773825107,
-        "narHash": "sha256-MJAQt2c+dqoXqD06EEjkelPHc0uVDtq74Jfh28unyEM=",
+        "lastModified": 1774628681,
+        "narHash": "sha256-2wV9o/KaYHCOoZ6hTDRI5OM0Dto0pncGmXt3AoUVnZE=",
         "owner": "indium114",
         "repo": "jots",
-        "rev": "a1377dedfac0ee5ea1b6b7b61215027773ec4d6d",
+        "rev": "fbda0907f2f1ffab2f73c1c376acb48b89ede28f",
         "type": "github"
       },
       "original": {
@@ -339,11 +339,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772375524,
-        "narHash": "sha256-cL8VYPsGcwdk7tK6iR/qpI5nqP8Z9VCHTZYXJImSaDk=",
+        "lastModified": 1774629094,
+        "narHash": "sha256-in7bS791/TBqaUUghRVcwv9YpFwSjIL4bP1viSFueeY=",
         "owner": "indium114",
         "repo": "pricetag",
-        "rev": "c64f236e9a57c1b084fa70f45e4f9499dc70a8da",
+        "rev": "67995a4e298540714be2c1bb79ace03ffd00e8fc",
         "type": "github"
       },
       "original": {
@@ -360,11 +360,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774200104,
-        "narHash": "sha256-AQ5j0sbiaPxnauzVn9ywFwjXv3nThT6CYUmgAyPqjDs=",
+        "lastModified": 1774628913,
+        "narHash": "sha256-mLv8m4pndeC4Id5Nu7OZEUhKmIZ6B1nxA/qvBRxwrKk=",
         "owner": "indium114",
         "repo": "recall",
-        "rev": "1d6476c8ee58b077ff2fa690eaa780382604d29e",
+        "rev": "2d78972a2a4d06daf003ef391692b963055059e5",
         "type": "github"
       },
       "original": {
@@ -400,11 +400,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773743080,
-        "narHash": "sha256-sTgBMkYkFO1prTQFvqtaatkXXyzotuvlu1E37ugjy4s=",
+        "lastModified": 1774628999,
+        "narHash": "sha256-TIVlFnZSRJeBtujK3ietldqryPwqBs4F/Zoo6csV1yM=",
         "owner": "indium114",
         "repo": "satchel",
-        "rev": "fec21d8f5fbc1edb137aa25103cd7c41e6d4c0af",
+        "rev": "8faf38588e85afefcdcb8d2a47a25894d4debe3b",
         "type": "github"
       },
       "original": {
@@ -421,11 +421,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774715979,
-        "narHash": "sha256-lZEFG5wp0l5iIC5MKXbst/SGJut/7HAHMV7sSe3eoYw=",
+        "lastModified": 1774718444,
+        "narHash": "sha256-MUujmaZ8posNN67K3tXj/wo7+ir4HPSBAYoOakHERgw=",
         "owner": "indium114",
         "repo": "sorta",
-        "rev": "2279b9122b0990b06c32dbde5e654544eca3113a",
+        "rev": "0ea88a9f81dacec10e33e6e1860cdc4b347d3b78",
         "type": "github"
       },
       "original": {
@@ -442,11 +442,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1774605788,
-        "narHash": "sha256-zwXZpr6bCHBvFBrQZj4JDOjgOnq3vKAGdW7odWUIqac=",
+        "lastModified": 1774627881,
+        "narHash": "sha256-8PKWCU1Ii2xoaC/c/mvy0+S4LTOE+oKR3oaYyG6Ucic=",
         "owner": "indium114",
         "repo": "spyglass",
-        "rev": "a998d78a3937e63f7be817e08d254bb82ed517b5",
+        "rev": "ac6988b4d6d1db4aa84eb6a568d2d64dc77f4f53",
         "type": "github"
       },
       "original": {
@@ -613,11 +613,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773394576,
-        "narHash": "sha256-auy/i9H9ly/WXZu0guhsSwY+F/gyi47llOBZxw5j0hU=",
+        "lastModified": 1774629061,
+        "narHash": "sha256-AlnQymnMK6VlVuRKgChYz01qTFq2BWnIXcMqT6Wd2xg=",
         "owner": "indium114",
         "repo": "theatre",
-        "rev": "371fbbe2286764c8fb3b8669e96a472cadabf23e",
+        "rev": "1f2d66fccbbaacc684e774cc5684ea9c9aeee513",
         "type": "github"
       },
       "original": {
@@ -670,11 +670,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1773049622,
-        "narHash": "sha256-89kpFXH46aaulAzzZB8MshsL16FMHerASkEhL2WVM8E=",
+        "lastModified": 1774697078,
+        "narHash": "sha256-83xg8u+aF7ud2jdrrpXwQuV9Q93cgQiFae1WdTgM5CQ=",
         "owner": "stan-breaks",
         "repo": "ytsurf",
-        "rev": "62da30ae320f98f945ba8afce9c6cbf549705464",
+        "rev": "5fb63cfce31eebda45c6775f8ebdaec242339b61",
         "type": "github"
       },
       "original": {
