@@ -100,6 +100,9 @@
     spawn-at-startup "swaync"
     spawn-at-startup "waybar"
 
+    /// lock after 7 minutes of inactivity
+    spawn-at-startup "swayidle" "-w" "timeout" "420" "hyprlock" "before-sleep" "hyprlock"
+
     // Screenshot path
     screenshot-path "~/Pictures/Screenshots/screenshot-%Y%m%d_%H%M%S.png"
 
