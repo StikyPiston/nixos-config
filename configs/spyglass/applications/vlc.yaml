@@ -1,0 +1,4 @@
+name: "VLC"
+description: "Play videos"
+icon: "󰕼"
+command: "vlc & sleep 5"
