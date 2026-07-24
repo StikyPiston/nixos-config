@@ -12,7 +12,7 @@
     osu-lazer-bin
     classicube
     wineWow64Packages.stable
-    mindustry-wayland
+    # mindustry-wayland
     cartridges
     supertux
     supertuxkart
