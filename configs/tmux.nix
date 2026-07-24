@@ -44,6 +44,9 @@
       bind Tab next-window
       bind r command-prompt "rename-window %%"
 
+      ### hocusfocus
+      bind H new-window "hocusfocus"
+
       ### Statusline stuff
       set -g status-interval 5
 
@@ -74,6 +77,8 @@
       set -g status-right-length 80
 
       set -g status-right "\
+      #[bg=#b4befe, fg=#1e1e2e] #(while true; do hocusfocus currentsession --minimal; sleep 1; done) \
+      #[default] \
       #[bg=#cba6f7,fg=#1e1e2e]  #(tmux display-message -p '#{pane_current_command}') \
       #[default] \
       #[bg=#a6e3a1,fg=#1e1e2e]  #S \
