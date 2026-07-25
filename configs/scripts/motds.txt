@@ -38,3 +38,4 @@ I actively avoid unpacking how that works
 The shapes then go into a shape press, which presses the shape into a pressed shape
 Perchance
 You can't just say "perchance"
+Whoops, I should've predicted that someone could escape out of a ventilation shaft using discarded mirrors as stairs
