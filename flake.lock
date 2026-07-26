@@ -27,11 +27,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1784794368,
-        "narHash": "sha256-IUrKQoGgub8E+cEgI/rtRDePucvK7YzUIEsa2nYyouQ=",
+        "lastModified": 1785091827,
+        "narHash": "sha256-EdcWKY7UB3E1YIQZly9k66a2NWDWId6HyjyC3BD8F9M=",
         "owner": "indium114",
         "repo": "bunkers",
-        "rev": "fbc03267325c19b1d7cc84ee7f9026aa400dfea7",
+        "rev": "af6cb69df1350dc834c120eba6a93ea2d0b80e4a",
         "type": "github"
       },
       "original": {
