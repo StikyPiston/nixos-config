@@ -12,5 +12,12 @@
     "state": 1,
     "id": 1,
     "project": "home-manager"
+  },
+  {
+    "name": "Configure disko with LUKS ext4 root",
+    "prio": 2,
+    "state": 0,
+    "id": 2,
+    "project": "nixos"
   }
 ]
