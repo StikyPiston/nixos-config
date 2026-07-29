@@ -8,6 +8,10 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     recall = {
       url = "github:indium114/recall";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -93,6 +97,7 @@
           }
           inputs.catppuccin.nixosModules.catppuccin
           inputs.home-manager.nixosModules.home-manager
+          inputs.disko.nixosModules.default
           inputs.omnisearch.nixosModules.default
           ./configuration.nix
 

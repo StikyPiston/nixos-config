@@ -14,6 +14,7 @@
   nix.package = pkgs.lixPackageSets.stable.lix;
 
   imports = [
+    ./disk.nix
     ./hardware-configuration.nix
     ./modules/boot.nix
     ./modules/catppuccin.nix

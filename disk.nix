@@ -2,7 +2,7 @@
   disko.devices = {
     disk.main = {
       type = "disk";
-      device = "/dev/sda";
+      device = "/dev/disk/by-id/ata-ST1000LM035-1RK172_WDEHTZNN";
       content = {
         type = "gpt";
         partitions = {
