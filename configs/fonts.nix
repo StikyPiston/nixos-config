@@ -14,7 +14,7 @@
         "Lato Black"
       ];
       monospace = [
-        "Martian Mono Condensed Medium"
+        "MartianMono Condensed Semibold"
       ];
     };
   };
