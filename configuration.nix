@@ -35,7 +35,7 @@
     ./modules/packages/web.nix
     ./modules/packages/wm.nix
     ./modules/security.nix
-    ./modules/services.nix
+    ./modules/services/default.nix
     ./modules/swap.nix
     ./modules/users.nix
     ./modules/virtualisation.nix

@@ -1,0 +1,9 @@
+{
+  ...
+}:
+
+{
+
+  services.gvfs.enable = true;
+
+}
