@@ -4,6 +4,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     catppuccin.url = "github:catppuccin/nix";
     uwu-colors.url = "github:q60/uwu_colors";
+    flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -68,58 +69,10 @@
 
   outputs =
     inputs:
-    let
-      pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
-    in
-    {
-
-      nixosConfigurations.frosties = inputs.nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-
-        specialArgs = {
-          inherit inputs;
-        };
-
-        modules = [
-          {
-            nix.settings.experimental-features = [
-              "nix-command"
-              "flakes"
-            ];
-          }
-          inputs.catppuccin.nixosModules.catppuccin
-          inputs.home-manager.nixosModules.home-manager
-          inputs.disko.nixosModules.default
-          inputs.omnisearch.nixosModules.default
-          ./configuration.nix
-
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-
-            # Pass inputs to home.nix
-            home-manager.extraSpecialArgs = {
-              inherit inputs;
-            };
-
-            home-manager.users.indium114 = {
-              imports = [
-                inputs.catppuccin.homeModules.catppuccin
-                ./home.nix
-              ];
-            };
-          }
-        ];
-      };
-
-      homeConfigurations."indium114" = inputs.home-manager.lib.homeManagerConfiguration {
-        inherit pkgs;
-        modules = [
-          inputs.catppuccin.homeModules.catppuccin
-          ./home.nix
-        ];
-      };
-
+    inputs.flake-parts.lib.mkFlake { inherit inputs; } {
+      imports = [
+        ./hosts/frosties.nix
+      ];
     };
 
 }

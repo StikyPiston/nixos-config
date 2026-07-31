@@ -12,12 +12,5 @@
     "state": 1,
     "id": 1,
     "project": "home-manager"
-  },
-  {
-    "name": "Refactor nixosConfigurations outputs with flake-parts",
-    "prio": 1,
-    "state": 0,
-    "id": 3,
-    "project": "nixos"
   }
 ]
