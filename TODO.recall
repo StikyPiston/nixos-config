@@ -14,10 +14,10 @@
     "project": "home-manager"
   },
   {
-    "name": "Configure disko with LUKS ext4 root",
-    "prio": 2,
-    "state": 1,
-    "id": 2,
+    "name": "Refactor nixosConfigurations outputs with flake-parts",
+    "prio": 1,
+    "state": 0,
+    "id": 3,
     "project": "nixos"
   }
 ]
