@@ -13,7 +13,6 @@
     classicube
     wineWow64Packages.stable
     # mindustry-wayland
-    cartridges
     supertux
     supertuxkart
   ];

@@ -24,10 +24,6 @@
       url = "github:indium114/fastcards";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    theatre = {
-      url = "github:indium114/theatre";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     pricetag = {
       url = "github:indium114/pricetag";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -38,10 +34,6 @@
     };
     satchel = {
       url = "github:indium114/satchel";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    jots = {
-      url = "github:indium114/jots";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     sorta = {
