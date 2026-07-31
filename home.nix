@@ -13,6 +13,7 @@
     ./configs/cava.nix
     ./configs/cursor.nix
     ./configs/defaults.nix
+    ./configs/drawy.nix
     ./configs/fastfetch.nix
     ./configs/fonts.nix
     ./configs/gh-dash.nix
