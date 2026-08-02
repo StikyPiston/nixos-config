@@ -141,7 +141,7 @@
 
     	open-floating true
 
-    	max-width 700
+    	max-width 730
     	max-height 670
     }
 
