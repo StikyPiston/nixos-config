@@ -1007,11 +1007,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1785695358,
-        "narHash": "sha256-333RnSvsSWh+Lsdy+jT/1iIGiEnQvRdjqbJUPIp14ho=",
+        "lastModified": 1785696894,
+        "narHash": "sha256-xUzxABCI6+Y/zgrGm66YHJT6caDlMJSyS7kXUUbzg60=",
         "owner": "indium114",
         "repo": "spyglass",
-        "rev": "5d7379b42aa46fecd177a4969d8464aa22bf378c",
+        "rev": "3213ab12aa33562391c927fa385e40a9c02263da",
         "type": "github"
       },
       "original": {
