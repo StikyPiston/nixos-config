@@ -1,0 +1,4 @@
+name = "Pipeline"
+description = "Watch YouTube and PeerTube"
+icon = ""
+command = "tubefeeder & sleep 5"

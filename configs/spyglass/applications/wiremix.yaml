@@ -1,4 +1,0 @@
-name: "Wiremix"
-description: "Manage Audio devices"
-icon: "󰕾"
-command: "ghostty +new-window --title='Wiremix' -e wiremix & sleep 5"

@@ -1,4 +1,0 @@
-name: "Transmission"
-description: "Torrent files"
-icon: ""
-command: "transmission-gtk & sleep 5"

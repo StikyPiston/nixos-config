@@ -1,0 +1,4 @@
+name = "SuperTux"
+description = "An open-source classic 2D jump'n run sidescroller"
+icon = "󰻀"
+command = "supertux2 & sleep 5"

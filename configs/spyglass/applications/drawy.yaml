@@ -1,4 +1,0 @@
-name: "Drawy"
-description: "Draw on an infinite whiteboard"
-icon: ""
-command: "drawy & sleep 5"

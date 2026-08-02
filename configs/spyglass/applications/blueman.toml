@@ -1,0 +1,4 @@
+name = "Blueman"
+description = "Manage Bluetooth devices"
+icon = "󰂯"
+command = "blueman-manager & sleep 5"

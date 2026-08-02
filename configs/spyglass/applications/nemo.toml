@@ -1,0 +1,16 @@
+name = "Nemo"
+description = "File Manager"
+icon = "󰝰"
+command = "nemo & sleep 5"
+
+[[context]]
+name = "Open Home folder"
+command = "nemo ~ & sleep 5"
+
+[[context]]
+name = "Open Root folder"
+command = "nemo / & sleep 5"
+
+[[context]]
+name = "Open Documents folder"
+command = "nemo ~/Documents & sleep 5"

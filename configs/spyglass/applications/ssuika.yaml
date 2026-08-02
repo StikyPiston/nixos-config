@@ -1,4 +1,0 @@
-name: "ssuika"
-description: "Drop and merge shapes"
-icon: "󰫢"
-command: "ssuika & sleep 5"

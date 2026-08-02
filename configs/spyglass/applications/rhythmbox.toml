@@ -1,0 +1,4 @@
+name = "Rhythmbox"
+description = "Play and manage music"
+icon = "󰓃"
+command = "rhythmbox & sleep 5"

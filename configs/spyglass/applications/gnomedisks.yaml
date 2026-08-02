@@ -1,4 +1,0 @@
-name: "Disks"
-description: "Manage disks"
-icon: "󰋊"
-command: "gnome-disks & sleep 5"

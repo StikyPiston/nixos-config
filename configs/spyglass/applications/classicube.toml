@@ -1,0 +1,4 @@
+name = "ClassiCube"
+description = "Play ClassiCube"
+icon = ""
+command = "ClassiCube & sleep 5"

@@ -1,0 +1,4 @@
+name = "Pika Backup"
+description = "Back up user data"
+icon = ""
+command = "pika-backup & sleep 5"

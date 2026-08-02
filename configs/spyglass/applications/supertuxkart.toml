@@ -1,0 +1,4 @@
+name = "SuperTuxKart"
+description = "Play SuperTuxKart"
+icon = "󰞫"
+command = "supertuxkart & sleep 5"

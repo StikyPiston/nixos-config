@@ -1,4 +1,0 @@
-name: "Teeworlds"
-description: "Jumping the gun"
-icon: ""
-command: "teeworlds & sleep 5"

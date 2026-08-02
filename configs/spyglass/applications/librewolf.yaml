@@ -1,9 +1,0 @@
-name: "LibreWolf"
-description: "Browse the Internet"
-icon: "󰖟"
-command: "librewolf --new-window & sleep 5"
-context:
-  - name: "New window"
-    command: "librewolf --new-window & sleep 5"
-  - name: "New Private window"
-    command: "librewolf --private-window & sleep 5"

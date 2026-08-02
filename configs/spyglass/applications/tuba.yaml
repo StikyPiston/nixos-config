@@ -1,4 +1,0 @@
-name: "Tuba"
-description: "Browse the Fediverse"
-icon: "󰫑"
-command: "dev.geopjr.Tuba & sleep 5"

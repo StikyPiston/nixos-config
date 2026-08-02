@@ -1,4 +1,0 @@
-name: "CraftOS-PC"
-description: "ComputerCraft emulator"
-icon: "󰍹"
-command: "craftos & sleep 5"

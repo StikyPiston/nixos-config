@@ -1,0 +1,28 @@
+name = "LibreOffice"
+description = "Create and edit documents"
+icon = ""
+command = "libreoffice & sleep 5"
+
+[[context]]
+name = "Open Base"
+command = "libreoffice --base & sleep 5"
+
+[[context]]
+name = "Open Calc"
+command = "libreoffice --calc & sleep 5"
+
+[[context]]
+name = "Open Draw"
+command = "libreoffice --draw & sleep 5"
+
+[[context]]
+name = "Open Impress"
+command = "libreoffice --impress & sleep 5"
+
+[[context]]
+name = "Open Math"
+command = "libreoffice --math & sleep 5"
+
+[[context]]
+name = "Open Writer"
+command = "libreoffice --writer & sleep 5"

@@ -1,0 +1,4 @@
+name = "Mindustry"
+description = "Play Mindustry"
+icon = ""
+command = "mindustry & sleep 5"

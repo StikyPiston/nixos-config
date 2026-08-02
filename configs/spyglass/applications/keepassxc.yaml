@@ -1,4 +1,0 @@
-name: "KeePassXC"
-description: "Manage passwords"
-icon: "󰢁"
-command: "keepassxc & sleep 5"

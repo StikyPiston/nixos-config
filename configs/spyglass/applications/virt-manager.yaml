@@ -1,4 +1,0 @@
-name: "Virtual Machine Manager"
-description: "Run virtual machines"
-icon: "󰇅"
-command: "virt-manager & sleep 5"

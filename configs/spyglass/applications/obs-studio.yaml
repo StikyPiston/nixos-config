@@ -1,4 +1,0 @@
-name: "OBS Studio"
-description: "Open Broadcaster Software"
-icon: ""
-command: "obs & sleep 5"

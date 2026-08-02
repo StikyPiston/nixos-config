@@ -1,4 +1,0 @@
-name: "termfarm"
-description: "Play termfarm"
-icon: "󱕓"
-command: "ghostty +new-window -e termfarm & sleep 5"

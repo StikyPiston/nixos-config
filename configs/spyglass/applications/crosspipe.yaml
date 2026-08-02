@@ -1,4 +1,0 @@
-name: "Crosspipe"
-description: "Manage audio input/output graphs"
-icon: "󱡫"
-command: "crosspipe & sleep 5"

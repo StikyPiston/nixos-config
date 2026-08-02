@@ -1,4 +1,0 @@
-name: "Proton VPN"
-description: "Proton VPN"
-icon: "󰀳"
-command: "protonvpn-app & sleep 5"

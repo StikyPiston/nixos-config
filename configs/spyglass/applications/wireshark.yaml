@@ -1,4 +1,0 @@
-name: "Wireshark"
-description: "Capture and inspect network packets"
-icon: "󱙳"
-command: "wireshark & sleep 5"

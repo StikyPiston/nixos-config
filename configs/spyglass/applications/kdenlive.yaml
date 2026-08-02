@@ -1,4 +1,0 @@
-name: "Kdenlive"
-description: "Edit videos"
-icon: ""
-command: "kdenlive & sleep 5"

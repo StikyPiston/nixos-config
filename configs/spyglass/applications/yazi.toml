@@ -1,0 +1,16 @@
+name = "Yazi"
+description = "File Manager"
+icon = "󰇥"
+command = "ghostty +new-window --title='Yazi' -e yazi ~ & sleep 5"
+
+[[context]]
+name = "Open Home folder"
+command = "ghostty +new-window --title='Yazi' -e yazi ~ & sleep 5"
+
+[[context]]
+name = "Open Root folder"
+command = "ghostty +new-window --title='Yazi' -e yazi / & sleep 5"
+
+[[context]]
+name = "Open Documents folder"
+command = "ghostty +new-window --title='Yazi' -e yazi ~/Documents & sleep 5"

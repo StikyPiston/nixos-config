@@ -1,4 +1,0 @@
-name: "Prism Launcher"
-description: "Play and manage Minecraft instances"
-icon: "󰍳"
-command: "prismlauncher & sleep 5"
