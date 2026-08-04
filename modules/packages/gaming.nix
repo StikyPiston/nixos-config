@@ -15,6 +15,7 @@
     # mindustry-wayland
     supertux
     supertuxkart
+    pandora-launcher
   ];
 
   programs.steam = {
