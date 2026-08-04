@@ -1,0 +1,4 @@
+name = "Pandora Launcher"
+description = "Play and manage Minecraft instances"
+icon = "󰍳"
+command = "pandora_launcher & sleep 5"
