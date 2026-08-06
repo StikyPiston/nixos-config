@@ -104,7 +104,7 @@
     };
     style = ''
       * {
-        font-family: "Martian Mono Condensed SemiBold";
+        font-family: "MartianMono NF Cond Med";
         font-size: 16px;
         min-height: 0;
         font-weight: bold;

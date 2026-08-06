@@ -7,7 +7,7 @@
   programs.ghostty = {
     enable = true;
     settings = {
-      font-family = "Martian Mono Cn Md";
+      font-family = "MartianMono NF Cond Med";
       window-padding-x = "8,8";
       window-padding-y = "8,8";
       command = "tmux";
