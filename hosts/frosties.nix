@@ -33,6 +33,9 @@ in
         inputs.disko.nixosModules.default
         inputs.omnisearch.nixosModules.default
         ../configuration.nix
+        ../hardware.nix
+        ../disk.nix
+        ../modules/default.nix
 
         {
           home-manager.useGlobalPkgs = true;

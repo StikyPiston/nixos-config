@@ -5,6 +5,7 @@
 
 {
 
+  # NOTE: these are basic axioms for every host
   nixpkgs.config.allowUnfree = true;
   nix.settings.trusted-users = [
     "root"
@@ -12,33 +13,5 @@
   ];
 
   nix.package = pkgs.lixPackageSets.stable.lix;
-
-  imports = [
-    ./disk.nix
-    ./hardware.nix
-    ./modules/boot.nix
-    ./modules/catppuccin.nix
-    ./modules/environment.nix
-    ./modules/garbagecollector.nix
-    ./modules/hardware.nix
-    ./modules/kanata.nix
-    ./modules/locale.nix
-    ./modules/networking.nix
-    ./modules/packages/development.nix
-    ./modules/packages/external.nix
-    ./modules/packages/fonts.nix
-    ./modules/packages/gaming.nix
-    ./modules/packages/languages.nix
-    ./modules/packages/multimedia.nix
-    ./modules/packages/productivity.nix
-    ./modules/packages/utilities.nix
-    ./modules/packages/web.nix
-    ./modules/packages/wm.nix
-    ./modules/security.nix
-    ./modules/services/default.nix
-    ./modules/swap.nix
-    ./modules/users.nix
-    ./modules/virtualisation.nix
-  ];
 
 }
