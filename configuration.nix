@@ -15,7 +15,7 @@
 
   imports = [
     ./disk.nix
-    ./hardware-configuration.nix
+    ./hardware.nix
     ./modules/boot.nix
     ./modules/catppuccin.nix
     ./modules/environment.nix
