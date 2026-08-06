@@ -7,7 +7,6 @@
 
   fonts.packages = [
     pkgs.nerd-fonts.martian-mono
-    pkgs.monaspace
     pkgs.lato
   ];
 
@@ -21,7 +20,7 @@
         "Lato Black"
       ];
       monospace = [
-        "Monaspace Krypton SemiBold"
+        "MartianMono Condensed Semibold"
       ];
     };
   };
