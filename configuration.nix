@@ -41,7 +41,4 @@
     ./modules/virtualisation.nix
   ];
 
-  # DO NOT EDIT
-  system.stateVersion = "26.11";
-
 }
