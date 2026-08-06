@@ -14,7 +14,7 @@
         "Lato Black"
       ];
       monospace = [
-        "Monaspace Krypton SemiBold"
+        "MartianMono Condensed Semibold"
       ];
     };
   };
