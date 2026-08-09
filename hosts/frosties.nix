@@ -50,6 +50,7 @@ in
             imports = [
               inputs.catppuccin.homeModules.catppuccin
               ../home.nix
+              ../configs/default.nix
             ];
           };
         }

@@ -5,7 +5,7 @@
 
 {
 
-  # NOTE: these are basic axioms for every host
+  # NOTE: basic axioms for every host
   nixpkgs.config.allowUnfree = true;
   nix.settings.trusted-users = [
     "root"
