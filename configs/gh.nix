@@ -1,8 +1,16 @@
 {
+  pkgs,
   ...
 }:
 
 {
+
+  programs.gh = {
+    enable = true;
+    extensions = with pkgs; [
+      gh-dash
+    ];
+  };
 
   programs.gh-dash = {
     enable = true;

@@ -16,7 +16,7 @@
     ./drawy.nix
     ./fastfetch.nix
     ./fonts.nix
-    ./gh-dash.nix
+    ./gh.nix
     ./ghostty.nix
     ./git.nix
     ./gtk.nix
