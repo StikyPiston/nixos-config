@@ -23,6 +23,7 @@
     ./haal.nix
     ./helix.nix
     ./hyprlock.nix
+    ./keepassxc.nix
     ./lazygit.nix
     ./mangohud.nix
     ./niri.nix
@@ -36,6 +37,7 @@
     ./television.nix
     ./tmux.nix
     ./waybar.nix
+    ./xdg_autostart.nix
     ./yazi.nix
     ./ytsurf.nix
     ./zathura.nix
