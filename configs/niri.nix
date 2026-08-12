@@ -86,7 +86,6 @@
     spawn-at-startup "awww-daemon"
     spawn-at-startup "awww" "img" "${./wallpaper.jpg}"
     spawn-at-startup "xwayland-satellite"
-    spawn-at-startup "systemctl" "--user" "start" "hyprpolkitagent"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"

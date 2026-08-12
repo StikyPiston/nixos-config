@@ -23,6 +23,7 @@
     ./haal.nix
     ./helix.nix
     ./hyprlock.nix
+    ./hyprpolkitagent.nix
     ./keepassxc.nix
     ./lazygit.nix
     ./mangohud.nix
