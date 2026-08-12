@@ -10,7 +10,6 @@
     ghostty
     awww
     fastfetch
-    hyprpolkitagent
     cava
     hyprlock
     starship

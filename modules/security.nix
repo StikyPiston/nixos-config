@@ -28,4 +28,6 @@
     pinentryPackage = pkgs.pinentry-curses;
   };
 
+  security.polkit.enable = true;
+
 }
