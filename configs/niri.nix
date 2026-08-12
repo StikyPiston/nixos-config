@@ -56,7 +56,7 @@
     	xcursor-size 24
     }
 
-    // Window layour
+    // Window layout
     layout {
         gaps 16
         center-focused-column "always"
@@ -80,12 +80,6 @@
             offset x=0 y=5
             color "#0007"
         }
-        struts {
-            // left 64
-            // right 64
-            // top 64
-            // bottom 64
-        }
     }
 
     // Startup apps
@@ -93,7 +87,6 @@
     spawn-at-startup "awww" "img" "${./wallpaper.jpg}"
     spawn-at-startup "xwayland-satellite"
     spawn-at-startup "systemctl" "--user" "start" "hyprpolkitagent"
-    spawn-at-startup "mpd"
     spawn-at-startup "nm-applet"
     spawn-at-startup "protonvpn-app" "--start-minimized"
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
@@ -113,26 +106,12 @@
 
     // Window rules
     window-rule {
-        match app-id=r#"^org\.wezfurlong\.wezterm$"#
-        default-column-width {}
-    }
-
-    window-rule {
         match {}
         opacity 0.87
         draw-border-with-background false
         background-effect {
             blur true
         }
-    }
-
-    window-rule {
-    	match app-id=r#"^indicator-stickynotes"#
-
-    	open-floating true
-
-    	max-width 250
-    	max-height 200
     }
 
     /// Open Spyglass window floating and small
