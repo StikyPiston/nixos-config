@@ -92,7 +92,6 @@
     spawn-at-startup "blueman-applet"
     spawn-at-startup "sunsetr"
     spawn-at-startup "swaync"
-    spawn-at-startup "waybar"
     spawn-at-startup "hydroxide" "serve"
     spawn-at-startup "keepassxc" "--minimized"
     spawn-at-startup "${pkgs.usbguard-notifier}/bin/usbguard-notifier"
