@@ -10,12 +10,7 @@
 #  \___\___/|_| |_|_| |_|\__, (_)_| |_|\__,_|
 #                        |___/
 
-$env.PATH = ( $env.PATH | prepend "/home/indium114/Applications" )
-$env.PATH = ( $env.PATH | prepend "/home/indium114/.scripts" )
-$env.PATH = ( $env.PATH | prepend "/home/indium114/.local/share/gem/ruby/3.4.0/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/indium114/.local/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/indium114/go/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/indium114/Wares" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.scripts" | prepend "/home/indium114/.local/bin" )
 
 use std/dirs
 
