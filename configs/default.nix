@@ -13,6 +13,7 @@
     ./cava.nix
     ./cursor.nix
     ./default_apps.nix
+    ./direnv.nix
     ./drawy.nix
     ./fastfetch.nix
     ./fonts.nix
