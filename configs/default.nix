@@ -42,6 +42,7 @@
     ./yazi.nix
     ./ytsurf.nix
     ./zathura.nix
+    ./zoxide.nix
   ];
 
 }
