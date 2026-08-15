@@ -9,6 +9,6 @@
   gtk.gtk4.theme = config.gtk.theme;
   home.username = "indium114";
   home.homeDirectory = "/home/indium114";
-  home.stateVersion = "25.11"; # DO NOT EDIT
+  home.stateVersion = "26.05"; # DO NOT EDIT
 
 }
