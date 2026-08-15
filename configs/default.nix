@@ -9,6 +9,7 @@
     ./bat.nix
     ./btop.nix
     ./bulletty.nix
+    ./carapace.nix
     ./catppuccin.nix
     ./cava.nix
     ./cursor.nix

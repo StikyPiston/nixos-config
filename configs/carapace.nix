@@ -1,0 +1,11 @@
+{
+  ...
+}:
+
+{
+
+  programs.carapace = {
+    enable = true;
+  };
+
+}
