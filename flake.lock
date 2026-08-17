@@ -3,11 +3,11 @@
     "beaker-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1780436704,
-        "narHash": "sha256-3aMH1YblnpiXKdkQVMRLmMZ5/8G7vB4HAfLg7+izyHg=",
+        "lastModified": 1786917319,
+        "narHash": "sha256-4+UWuicypc7wEuLGwY1N372X1JF162DPSbjssZlfhhY=",
         "ref": "refs/heads/master",
-        "rev": "360d6271e1a20d128430e52637d5d35f4c706ca5",
-        "revCount": 34,
+        "rev": "acdd9e754a536d542099951e4c9a6acc8cdf1c51",
+        "revCount": 45,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.monster/beaker"
@@ -523,11 +523,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786719456,
-        "narHash": "sha256-B74DLQs/VjlqyhnnX3tguWwghqJHWSJX30TKZuAljIg=",
+        "lastModified": 1786929086,
+        "narHash": "sha256-kzpwMyT7i2fTQ41tf/WlsIHuJtf3e0leRBEPkBhUzBY=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "83b7606dcf44abe3a94b86e8bb2b3355d22e8797",
+        "rev": "aac4965ddb7ea2ff0f3cadd9502c7042b7aa07ba",
         "type": "github"
       },
       "original": {
@@ -698,11 +698,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1786599213,
-        "narHash": "sha256-yNJd40f11EzXBjSByCB7IPpeFFAdeoSKKM67dGkfFoU=",
+        "lastModified": 1786862985,
+        "narHash": "sha256-FBJRXmbGXiSUDvYEbfLYRkckayyZ6SK1UEqhCrIZ2Cs=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "0e251e24a4f24e036a084b6b4b2d2491af4167f4",
+        "rev": "e5bdc4a41d4c072fe1e3787eaa0320a384741d44",
         "type": "github"
       },
       "original": {
@@ -737,11 +737,11 @@
         "omnisearch-src": "omnisearch-src"
       },
       "locked": {
-        "lastModified": 1786346894,
-        "narHash": "sha256-4FEzrvidnacSf210oj5DA+lGpW7SfKLJinmzBk+DRG0=",
+        "lastModified": 1786975837,
+        "narHash": "sha256-WfN+kP6pgTb/Ky0aCnhV5NiXeKHvw5WlF4khuRtA2O8=",
         "owner": "indium114",
         "repo": "omnisearch-flake",
-        "rev": "f8ad93e7d610df39b5e9ed511748242f38f4c598",
+        "rev": "32fd504d44317808138a3358c504a1667c8aa2a6",
         "type": "github"
       },
       "original": {
@@ -753,11 +753,11 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1785819301,
-        "narHash": "sha256-+GmvM4UfvyYplB5t4yOOmaNAiZJnEWp5mDfr4BXWJ3Y=",
+        "lastModified": 1786938343,
+        "narHash": "sha256-wGgvq7gnrwS10wMz4nJjGE95GXnmhkBPxKRQeTGwJWc=",
         "ref": "refs/heads/master",
-        "rev": "499bb9b1268cd422619efdc46889960425462aae",
-        "revCount": 136,
+        "rev": "e352971bc59c356886f57d97d01ce195c3b0d952",
+        "revCount": 150,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.monster/omnisearch"
