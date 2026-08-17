@@ -13,7 +13,6 @@
     cava
     hyprlock
     starship
-    btop
     papirus-icon-theme
     (catppuccin-gtk.override {
       variant = "mocha";
