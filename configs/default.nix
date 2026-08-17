@@ -7,6 +7,7 @@
   imports = [
     ./aerc.nix
     ./bat.nix
+    ./bottom.nix
     ./btop.nix
     ./bulletty.nix
     ./carapace.nix
