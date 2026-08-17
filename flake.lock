@@ -737,11 +737,11 @@
         "omnisearch-src": "omnisearch-src"
       },
       "locked": {
-        "lastModified": 1786975837,
-        "narHash": "sha256-WfN+kP6pgTb/Ky0aCnhV5NiXeKHvw5WlF4khuRtA2O8=",
+        "lastModified": 1786978565,
+        "narHash": "sha256-Oev5uKTLxYFCJxc0nW9xkJuGiE/dVSXoBob5xlJi5Cs=",
         "owner": "indium114",
         "repo": "omnisearch-flake",
-        "rev": "32fd504d44317808138a3358c504a1667c8aa2a6",
+        "rev": "db11f13cd20b28ddcb8ba0669b631e56f3628747",
         "type": "github"
       },
       "original": {
