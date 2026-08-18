@@ -15,6 +15,7 @@
         ApplicationTheme = "classic";
         MinimizeOnClose = true;
         MinimizeToTray = true;
+        MinimizeOnStartup = true;
         ShowTrayIcon = true;
         TrayIconAppearance = "monochrome-light";
       };
