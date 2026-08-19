@@ -31,7 +31,6 @@ in
         inputs.catppuccin.nixosModules.catppuccin
         inputs.home-manager.nixosModules.home-manager
         inputs.disko.nixosModules.default
-        inputs.omnisearch.nixosModules.default
         ../configuration.nix
         ../hardware.nix
         ../disk.nix
