@@ -87,11 +87,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786355851,
-        "narHash": "sha256-lom7X1eeUKXnavD5rGxPDfX9L/Oetw7C5YzLR/R5R5o=",
+        "lastModified": 1787478036,
+        "narHash": "sha256-5iE/6tjp+aMe70PS3/qFUzxA6MNibYLkLlBgEpN042Y=",
         "owner": "indium114",
         "repo": "fastcards",
-        "rev": "f559dec78309ca99b58b8a9e45f528f33c9ddfcc",
+        "rev": "1def7c015dd2904f135bbde8df3d00eca9641c6d",
         "type": "github"
       },
       "original": {
@@ -523,11 +523,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787379775,
-        "narHash": "sha256-XL2qfqmocfsvuEGyomZg4nOZfkuSe8vZtrOX99I+b6I=",
+        "lastModified": 1787487906,
+        "narHash": "sha256-zIdM+8teujHm5hc5MIPDnV7k2UeOOT/pFyFtWjOCwsY=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "ec1a8fdf74ed3f276148ee106299a2ba0e65d51f",
+        "rev": "cfba7ad5886b342b8dd63ba74354b3853ea4cfc9",
         "type": "github"
       },
       "original": {
@@ -1007,11 +1007,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787215130,
-        "narHash": "sha256-+XUcReSyJWefCab2wv5bwaJ78A62pG28RZ/6MwvwQH4=",
+        "lastModified": 1787491825,
+        "narHash": "sha256-qt9hdM7K3hS4DUwj+3uLr5wjS5tJ0fK/U3+CHfj2gJA=",
         "owner": "indium114",
         "repo": "spyglass",
-        "rev": "7d20ab01efc9289df6a29c3efb7b3443afbf0e1e",
+        "rev": "5c7122f308b41fc991cf9480f7ddf0a6758cdad4",
         "type": "github"
       },
       "original": {
