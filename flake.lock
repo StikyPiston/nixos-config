@@ -243,11 +243,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1785627969,
-        "narHash": "sha256-4dtXQk/NMePegK/nWp5NSeuZKLATItOq61lpEvmXqGw=",
+        "lastModified": 1787559586,
+        "narHash": "sha256-onL0VLf9vPllmT0H/OlURIU5r5t5WIEl7t4tVNKT0Nw=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "427bf4bd9435fdf21321c8cc628c24efc14c0f7a",
+        "rev": "9d0d87172c374f89da73c1cfe6d81ae62feac1f1",
         "type": "github"
       },
       "original": {
@@ -523,11 +523,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787487906,
-        "narHash": "sha256-zIdM+8teujHm5hc5MIPDnV7k2UeOOT/pFyFtWjOCwsY=",
+        "lastModified": 1787540599,
+        "narHash": "sha256-MHwk52ty3NsLhq9a1IbIfBJZlCUJIdiUYFo52JLK9hY=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "cfba7ad5886b342b8dd63ba74354b3853ea4cfc9",
+        "rev": "03f4cd46bc1dd4f3a96da778d2ce9f7ce39dd450",
         "type": "github"
       },
       "original": {
@@ -698,11 +698,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1787360063,
-        "narHash": "sha256-dt4WdcvsA8/RCe+VZZwqU0X+XMM3wBbGCWA0/sFWzGo=",
+        "lastModified": 1787498568,
+        "narHash": "sha256-9i/VTdusq/+NM/tz+J1Re+ojkMB8MBf0QshnYfzHz30=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2c423e03bbafcff28bfadc6781a4a8257f205cb5",
+        "rev": "56c02bc00adcf003215cc4bd996d6efaf4cff188",
         "type": "github"
       },
       "original": {
@@ -737,11 +737,11 @@
         "omnisearch-src": "omnisearch-src"
       },
       "locked": {
-        "lastModified": 1786978565,
-        "narHash": "sha256-Oev5uKTLxYFCJxc0nW9xkJuGiE/dVSXoBob5xlJi5Cs=",
+        "lastModified": 1787554875,
+        "narHash": "sha256-pSFWGz6VPJ1VexmotosfqlYZRUQRDHv5hr7/9adgwdU=",
         "owner": "indium114",
         "repo": "omnisearch-flake",
-        "rev": "db11f13cd20b28ddcb8ba0669b631e56f3628747",
+        "rev": "8918da598120ce0198142202a1f4f3af53524e3c",
         "type": "github"
       },
       "original": {
@@ -753,11 +753,11 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1786938343,
-        "narHash": "sha256-wGgvq7gnrwS10wMz4nJjGE95GXnmhkBPxKRQeTGwJWc=",
+        "lastModified": 1787423031,
+        "narHash": "sha256-3l6j1mDX2UtNX9cIL9pvEnpmSDgxtr6r4dZZSRbAY0I=",
         "ref": "refs/heads/master",
-        "rev": "e352971bc59c356886f57d97d01ce195c3b0d952",
-        "revCount": 150,
+        "rev": "aace4b8f91487d8cb6b7c6fcd38efaa0a83cf1cc",
+        "revCount": 151,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.monster/omnisearch"
@@ -1230,11 +1230,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787211222,
-        "narHash": "sha256-O7EyDn4wwGdAV1A8HdmhpMKrG2KfyBYvOd0py4sZvI8=",
+        "lastModified": 1787574404,
+        "narHash": "sha256-WOx3q7w8GAkWtgbW4iydCQliMgyM16xy16q7MeZxYn8=",
         "owner": "indium114",
         "repo": "termfarm",
-        "rev": "fe26eee2c1d729bc16218d9894a57226324253e6",
+        "rev": "0b39b5a445d1b7f83cb068ed4e166334c8dbe504",
         "type": "github"
       },
       "original": {
