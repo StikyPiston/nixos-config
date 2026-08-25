@@ -1,8 +1,13 @@
 {
+  inputs,
   ...
 }:
 
 {
+
+  imports = [
+    inputs.omnisearch.nixosModules.default
+  ];
 
   services.omnisearch = {
     enable = true;
