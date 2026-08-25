@@ -48,7 +48,6 @@ in
 
           home-manager.users.indium114 = {
             imports = [
-              inputs.catppuccin.homeModules.catppuccin
               ../home.nix
               ../configs/default.nix
             ];
