@@ -94,6 +94,7 @@
       mkdir = "mkdir -v";
       mv = "mv -vp";
       rm = "rubbish -v";
+      cat = "bat";
       # git aliases
       ga = "git add";
       gb = "git blame";
