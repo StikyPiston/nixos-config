@@ -4,6 +4,7 @@
 
 {
 
+  zramSwap.enable = true;
   swapDevices = [
     {
       device = "/swapfile";

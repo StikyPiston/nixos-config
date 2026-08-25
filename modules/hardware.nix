@@ -9,7 +9,6 @@
     enable = true;
     extraBackends = [ pkgs.sane-airscan ];
   };
-  zramSwap.enable = true;
 
   hardware.bluetooth.enable = true;
 }
