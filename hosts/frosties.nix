@@ -31,8 +31,8 @@ in
         inputs.home-manager.nixosModules.home-manager
         inputs.disko.nixosModules.default
         ../configuration.nix
-        ../hardware.nix
         ../disk.nix
+        ../hardware.nix
         ../modules/default.nix
 
         {
