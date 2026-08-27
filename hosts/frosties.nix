@@ -46,8 +46,8 @@ in
 
           home-manager.users.indium114 = {
             imports = [
-              ../home.nix
               ../configs/default.nix
+              ../home.nix
             ];
           };
         }
@@ -58,6 +58,7 @@ in
       inherit pkgs;
       modules = [
         inputs.catppuccin.homeModules.catppuccin
+        ../configs/default.nix
         ../home.nix
       ];
     };
