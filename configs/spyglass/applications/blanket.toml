@@ -1,0 +1,4 @@
+name = "Blanket"
+description = "Play ambient sounds"
+icon = "󰓃"
+command = "blanket & sleep 5"
