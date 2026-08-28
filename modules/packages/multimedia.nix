@@ -13,6 +13,7 @@
     vlc
     crosspipe
     wiremix
+    blanket
   ];
 
   programs.obs-studio.enable = true;
