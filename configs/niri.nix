@@ -165,10 +165,17 @@
     binds {
         // Hotkey overlay
         Mod+Shift+Slash { show-hotkey-overlay; }
-        XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-        XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-        XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
-        XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
+
+        // Media/brightness keys
+        XF86AudioRaiseVolume  allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--output-volume" "+10"; }
+        XF86AudioLowerVolume  allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--output-volume" "-10"; }
+        XF86AudioMute         allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--output-volume" "mute-toggle"; }
+        XF86AudioMicMute      allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--input-volume" "mute-toggle"; }
+        XF86AudioPlay         allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--playerctl" "play-pause"; }
+        XF86AudioNext         allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--playerctl" "next"; }
+        XF86AudioPrev         allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--playerctl" "prev"; }
+        XF86MonBrightnessUp   allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--brightness" "+10"; }
+        XF86MonBrightnessDown allow-when-locked=true { spawn "${pkgs.swayosd}/bin/swayosd-client" "--brightness" "-10"; }
 
         // Overview
         Mod+O repeat=false { toggle-overview; }

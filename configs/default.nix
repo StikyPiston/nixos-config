@@ -37,6 +37,7 @@
     ./spyglass.nix
     ./starship.nix
     ./swaync.nix
+    ./swayosd.nix
     ./television.nix
     ./tmux.nix
     ./waybar.nix
