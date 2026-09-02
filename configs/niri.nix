@@ -91,7 +91,6 @@
     spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
     spawn-at-startup "blueman-applet"
     spawn-at-startup "sunsetr"
-    spawn-at-startup "hydroxide" "serve"
     spawn-at-startup "${pkgs.usbguard-notifier}/bin/usbguard-notifier"
 
     // Screenshot path
@@ -118,16 +117,6 @@
 
     	max-width 730
     	max-height 670
-    }
-
-    /// Open Weather App at Home floating and small
-    window-rule {
-        match title=r#"^Weather App at Home$"#
-
-        open-floating true
-
-        max-width 514
-        max-height 566
     }
 
     /// Open the Firefox picture-in-picture player as floating by default.
@@ -212,12 +201,6 @@
         Mod+Shift+Ctrl+I { move-column-to-monitor-up; }
         Mod+Shift+Ctrl+L { move-column-to-monitor-right; }
 
-        Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
-        Mod+Ctrl+End       { move-column-to-last; }
-        Mod+Ctrl+Page_Up   { move-column-to-workspace-up; }
-        Mod+Ctrl+U         { move-column-to-workspace-down; }
-        Mod+Ctrl+I         { move-column-to-workspace-up; }
-
         Mod+Shift+Page_Down { move-workspace-down; }
         Mod+Shift+Page_Up   { move-workspace-up; }
 
@@ -294,11 +277,9 @@
         // Spawn applications
         Mod+Grave { spawn "${pkgs.alacritty}/bin/alacritty" "--config-file" "${./alacritty.toml}" "--title" "Spyglass" "-e" "spyglass"; }
     	  Mod+Return { spawn "ghostty"; }
-    	  Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
     	  Mod+Semicolon { spawn "librewolf"; }
     	  Mod+Alt+L allow-when-locked=true { spawn "hyprlock"; }
     	  Mod+N { spawn "swaync-client" "-t"; }
-    	  Mod+M { spawn "ghostty" "-e" "rmpc"; }
     }
 
     // Overview settings
