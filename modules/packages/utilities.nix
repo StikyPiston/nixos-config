@@ -4,6 +4,7 @@
 }:
 
 {
+
   environment.systemPackages = with pkgs; [
     wget
     bat
@@ -32,8 +33,6 @@
     localsend
     nemo
     nemo-fileroller
-    nemo-emblems
-    nemo-preview
     file-roller
     wl-clipboard
     keepassxc
