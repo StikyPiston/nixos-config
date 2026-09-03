@@ -6,6 +6,7 @@
 
   imports = [
     ./aerc.nix
+    ./atuin.nix
     ./bat.nix
     ./bottom.nix
     ./bulletty.nix

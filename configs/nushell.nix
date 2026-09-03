@@ -25,42 +25,42 @@
       # keybindings
       $env.config.keybindings ++= [
           {
-              name: insert_mode
+              name: vi-insert_mode
               modifier: none
               keycode: char_u003B
               mode: vi_normal
               event: { send: ViChangeMode mode: "insert" }
           },
           {
-              name: disable_h
+              name: vi-disable_h
               modifier: none
               keycode: char_h
               mode: vi_normal
               event: { send: None }
           },
           {
-              name: move_up
+              name: vi-move_up
               modifier: none
               keycode: char_i
               mode: vi_normal
               event: { edit: MoveLineUp }
           },
           {
-              name: move_left
+              name: vi-move_left
               modifier: none
               keycode: char_j
               mode: vi_normal
               event: { edit: MoveLeft }
           },
           {
-              name: move_down
+              name: vi-move_down
               modifier: none
               keycode: char_k
               mode: vi_normal
               event: { edit: MoveLineDown }
           },
           {
-              name: move_right
+              name: vi-move_right
               modifier: none
               keycode: char_l
               mode: vi_normal
