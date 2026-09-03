@@ -38,7 +38,6 @@
     ./starship.nix
     ./swaync.nix
     ./swayosd.nix
-    ./television.nix
     ./tmux.nix
     ./waybar.nix
     ./xdg_autostart.nix
