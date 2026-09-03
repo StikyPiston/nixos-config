@@ -27,11 +27,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1786355857,
-        "narHash": "sha256-g0XmEkJFDvqTZWzzlmJ90ycHjr5r4sh6oSPgTtTs6Y4=",
+        "lastModified": 1788416232,
+        "narHash": "sha256-3/6Z+By/8UqiK+Nec/yqqlJkVvo93ndG8A33ZsrUg5c=",
         "owner": "indium114",
         "repo": "bunkers",
-        "rev": "67ff5af4102b230cca3469e447e6008e8ca04f10",
+        "rev": "eaf8b2c16d921b5aa43a903f8a59e8c711cbfacc",
         "type": "github"
       },
       "original": {
@@ -546,11 +546,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1788317453,
-        "narHash": "sha256-BTVJDWIuGa5ffxQEG5WujOOm3eXPw3gZX42Wvm32gb8=",
+        "lastModified": 1788355065,
+        "narHash": "sha256-gAz5oTI7ur34CfuakQduiQd/2ZhO62Bn2XXg08nZYYQ=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "b8350fcdf54ccf553e46408053b1ac5b7038c18b",
+        "rev": "d9d750e4fc11c10cab2da677bdd31e427f3a3a71",
         "type": "github"
       },
       "original": {
@@ -743,11 +743,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1788179007,
-        "narHash": "sha256-hn1oU2rue2SYK8dAr8+WNZWtbsz1S2W5mnHlSEuh3bo=",
+        "lastModified": 1788316716,
+        "narHash": "sha256-bc7rSpXIdn9QWGNqfWcPZWOhEVF8NoeAZkWq0XWnf/k=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "34ab99075ac4f7e40cf037eef32cb1c360bb85e9",
+        "rev": "3ed67ec0a4d3c7ab4ae1f04f8ee8df07bfa506a2",
         "type": "github"
       },
       "original": {
@@ -1070,11 +1070,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787491825,
-        "narHash": "sha256-qt9hdM7K3hS4DUwj+3uLr5wjS5tJ0fK/U3+CHfj2gJA=",
+        "lastModified": 1788428021,
+        "narHash": "sha256-T0b9kpF9BCLcAMo2pHWaFswVBIXf3BoxZUkzOf/73rY=",
         "owner": "indium114",
         "repo": "spyglass",
-        "rev": "5c7122f308b41fc991cf9480f7ddf0a6758cdad4",
+        "rev": "27a687fd73c83b94c5273aa68b54dd392808a1ed",
         "type": "github"
       },
       "original": {
@@ -1293,11 +1293,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787815096,
-        "narHash": "sha256-44WUsLyR4mtnG4f2UxpdQUM64L8/G+Hwg2uVrKCBd24=",
+        "lastModified": 1788431776,
+        "narHash": "sha256-aGVChCCN/A47Mi9tPPNhAtZDD0vJub5Y7ix9JmHKgkk=",
         "owner": "indium114",
         "repo": "termfarm",
-        "rev": "b64a602a49be8602d8a39cf417cff63b37156466",
+        "rev": "2199d7204da10cf6c218d31e008eb87cce69bf35",
         "type": "github"
       },
       "original": {
