@@ -33,6 +33,7 @@
     ./nushell.nix
     ./qt.nix
     ./quickshell.nix
+    ./rsstig.nix
     ./scripts.nix
     ./spyglass.nix
     ./starship.nix
