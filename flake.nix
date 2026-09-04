@@ -65,6 +65,10 @@
       url = "github:indium114/omnisearch-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    rsstig = {
+      url = "github:indium114/rsstig";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =

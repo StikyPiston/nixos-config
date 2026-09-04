@@ -20,5 +20,6 @@
     inputs.bunkers.packages.${pkgs.stdenv.hostPlatform.system}.bunkers
     inputs.haal.packages.${pkgs.stdenv.hostPlatform.system}.haal
     inputs.termfarm.packages.${pkgs.stdenv.hostPlatform.system}.termfarm
+    inputs.rsstig.packages.${pkgs.stdenv.hostPlatform.system}.rsstig
   ];
 }
