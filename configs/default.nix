@@ -9,7 +9,6 @@
     ./atuin.nix
     ./bat.nix
     ./bottom.nix
-    ./bulletty.nix
     ./carapace.nix
     ./catppuccin.nix
     ./cava.nix

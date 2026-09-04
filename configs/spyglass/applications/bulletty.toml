@@ -1,4 +1,0 @@
-name = "bulletty"
-description = "Read RSS and Atom feeds"
-icon = ""
-command = "ghostty +new-window -e bulletty & sleep 5"
