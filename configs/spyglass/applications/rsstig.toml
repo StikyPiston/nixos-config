@@ -1,0 +1,4 @@
+name = "rsstig"
+description = "Read RSS and Atom feeds"
+icon = ""
+command = "ghostty +new-window -e rsstig & sleep 5"
