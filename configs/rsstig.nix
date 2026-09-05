@@ -23,14 +23,14 @@
             <outline
                 text="LTT Labs: Articles"
                 description="Welcome to LTT Labs - your go-to destination for all things tech. Explore comprehensive test results, insightful commentary, and the latest analysis in hardware."
-                xmlUrl="https://www.lttlabs.com/articles/rss.xml"
-                type="rss"
+                xmlUrl="https://www.lttlabs.com/articles/atom"
+                type="atom"
             />
             <outline
                 text="Release notes from Mindustry"
                 description="Release notes from Mindustry"
                 xmlUrl="https://github.com/anuken/mindustry/releases.atom"
-                type="rss"
+                type="atom"
             />
             <outline
                 text="Rust Blog"
