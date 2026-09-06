@@ -5,12 +5,5 @@
     "state": 0,
     "id": 0,
     "project": "home-manager"
-  },
-  {
-    "name": "Try `quickshell`",
-    "prio": 1,
-    "state": 1,
-    "id": 1,
-    "project": "home-manager"
   }
 ]
