@@ -124,9 +124,6 @@
       window#waybar {
         background: transparent;
         color: @mauve;
-        /* transition-property: background-color; */
-        /* transition-duration: 0.1s; */
-        /* border-right: 1px solid @surface0; */
       }
 
       #window {
@@ -169,96 +166,48 @@
       #pulseaudio,
       #clock,
       #battery,
-      #cpu,
-      #memory,
-      #disk,
       #temperature,
-      #backlight,
       #wireplumber,
       #tray,
-      #network,
       #mode,
-      #scratchpad,
-      #custom-pacman,
       #workspaces,
       #mpris {
         margin-top: 2px;
         margin-bottom: 2px;
         margin-left: 4px;
         margin-right: 4px;
-        /* padding-left: 4px; */
-        /* padding-right: 4px; */
         padding-top: 4px;
         padding-bottom: 4px;
-        /* background: rgba(17, 17, 27, 0.85); */
         border-radius: 10px;
         min-width: 0;
       }
 
       #clock {
         color: @mauve;
-        /* border-right: 2px solid @flamingo; */
       }
 
       #clock.date {
         color: @mauve;
-        /* border-right: 2px solid @mauve; */
       }
 
       #pulseaudio {
         color: @mauve;
-        /* border-right: 2px solid @pink; */
-      }
-
-      #network {
-        color: @peach;
-        /* border-right: 2px solid @peach; */
-      }
-
-      #idle_inhibitor {
-        margin-right: 12px;
-        color: #7cb342;
-      }
-
-      #idle_inhibitor.activated {
-        color: @peach;
       }
 
       #battery {
         color: @mauve;
-        /* border-right: 2px solid @mauve; */
-      }
-
-      /* If workspaces is the leftmost module, omit left margin */
-      .modules-left > widget:first-child > #workspaces {
-        margin-left: 0;
-      }
-
-      /* If workspaces is the rightmost module, omit right margin */
-      .modules-right > widget:last-child > #workspaces {
-        margin-right: 0;
-      }
-
-      #custom-vpn {
-        color: @peach;
-        border-radius: 15px;
-        padding-left: 6px;
-        padding-right: 6px;
       }
 
       #mpris {
         color: @maroon;
-        /* border-right: 2px solid @maroon; */
       }
 
       #tray {
         color: @overlay1;
-        /* border-right: 2px solid @overlay1; */
       }
 
       #temperature {
         color: @mauve;
-        /* border-right: 2px solid @mauve; */
       }
 
       #temperature.warning {
