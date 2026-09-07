@@ -845,11 +845,11 @@
         "omnisearch-src": "omnisearch-src"
       },
       "locked": {
-        "lastModified": 1788170948,
-        "narHash": "sha256-wJkn7Nd6aX5KJ664Z/DE8UmtfjywWFBIOI/3hLV4WlI=",
+        "lastModified": 1788772667,
+        "narHash": "sha256-BH1j1whIB19co+CnfWgXFN33ILkqfCP5JrDSeB4X9Ak=",
         "owner": "indium114",
         "repo": "omnisearch-flake",
-        "rev": "634080a6a981c47ce2cb49db22d5ad2edcfd9b3b",
+        "rev": "d7962d5aa3ebb32e9e98ff0fb9e7d6f26a084d9e",
         "type": "github"
       },
       "original": {
@@ -861,11 +861,11 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1787423031,
-        "narHash": "sha256-3l6j1mDX2UtNX9cIL9pvEnpmSDgxtr6r4dZZSRbAY0I=",
+        "lastModified": 1788494360,
+        "narHash": "sha256-OwKY25VZz7P9T7pQfC3lgqk1UR85K0hpc7NnBt4uEKo=",
         "ref": "refs/heads/master",
-        "rev": "aace4b8f91487d8cb6b7c6fcd38efaa0a83cf1cc",
-        "revCount": 151,
+        "rev": "892acdc7f26df93735e0098ce62159571b31eb02",
+        "revCount": 152,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.monster/omnisearch"
